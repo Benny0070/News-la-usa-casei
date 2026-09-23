@@ -52,6 +52,19 @@ FEEDS = {
 
 MAX_PER_CATEGORY = 15
 TRANSLATE_CHAR_LIMIT = 450  # limita practica a traducatorului gratuit per apel
+RUN_COUNTER_FILE = "run_count.txt"
+
+
+def next_run_number():
+    try:
+        with open(RUN_COUNTER_FILE, "r", encoding="utf-8") as f:
+            current = int(f.read().strip() or "0")
+    except (FileNotFoundError, ValueError):
+        current = 0
+    new_value = current + 1
+    with open(RUN_COUNTER_FILE, "w", encoding="utf-8") as f:
+        f.write(str(new_value))
+    return new_value
 
 
 def clean_html(raw):
@@ -109,6 +122,7 @@ def main():
 
     output = {
         "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+        "run_number": next_run_number(),
         "categories": {k: {"label": v["label"]} for k, v in FEEDS.items()},
         "items": all_items,
     }
