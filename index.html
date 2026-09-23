@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rezumatul zilei</title>
+<style>
+  :root{
+    --paper:#F2F1EC;
+    --ink:#1C1E26;
+    --ink-soft:#5B5D67;
+    --line:#D8D6CC;
+    --flag:#A6362C;
+    --flag-soft:#F4E3E0;
+    --card:#FBFAF7;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;}
+  body{
+    background:var(--paper);
+    color:var(--ink);
+    font-family:-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .masthead{
+    border-bottom:3px double var(--ink);
+    padding:22px 18px 14px;
+    text-align:center;
+    max-width:900px;
+    margin:0 auto;
+  }
+  .masthead .date{
+    font-size:12px;
+    letter-spacing:.04em;
+    color:var(--ink-soft);
+    text-transform:capitalize;
+  }
+  .masthead h1{
+    font-family:Georgia,"Times New Roman",serif;
+    font-weight:700;
+    font-size:34px;
+    margin:6px 0 0;
+    letter-spacing:-0.01em;
+  }
+  .controls{
+    max-width:900px;
+    margin:18px auto 0;
+    padding:0 18px;
+  }
+  .search{
+    width:100%;
+    padding:11px 14px;
+    font-size:15px;
+    border:1px solid var(--line);
+    border-radius:6px;
+    background:var(--card);
+    color:var(--ink);
+  }
+  .search:focus{outline:2px solid var(--ink); outline-offset:1px;}
+  .categories{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin:12px 0 0;
+  }
+  .cat-btn{
+    border:1px solid var(--line);
+    background:var(--card);
+    color:var(--ink-soft);
+    font-size:13px;
+    padding:7px 12px;
+    border-radius:20px;
+    cursor:pointer;
+    font-family:inherit;
+  }
+  .cat-btn.active{
+    background:var(--ink);
+    border-color:var(--ink);
+    color:var(--paper);
+  }
+  .meta-row{
+    max-width:900px;
+    margin:14px auto 0;
+    padding:0 18px;
+    font-size:12px;
+    color:var(--ink-soft);
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+  }
+  main{
+    max-width:900px;
+    margin:0 auto;
+    padding:10px 18px 60px;
+  }
+  section.category-block{
+    margin-top:28px;
+  }
+  section.category-block h2{
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:20px;
+    border-bottom:1px solid var(--ink);
+    padding-bottom:6px;
+    margin:0 0 10px;
+  }
+  .item{
+    border-bottom:1px solid var(--line);
+    padding:14px 0;
+  }
+  .item:last-child{border-bottom:none;}
+  .item a.headline{
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:18px;
+    line-height:1.32;
+    color:var(--ink);
+    text-decoration:none;
+    display:block;
+  }
+  .item a.headline:hover{text-decoration:underline;}
+  .item .source-row{
+    font-size:12px;
+    color:var(--ink-soft);
+    margin-top:5px;
+  }
+  .item .source-row .flag{
+    color:var(--flag);
+    font-weight:600;
+  }
+  .rezumat-btn{
+    margin-top:8px;
+    background:none;
+    border:none;
+    color:var(--flag);
+    font-size:13px;
+    padding:0;
+    cursor:pointer;
+    font-family:inherit;
+  }
+  .rezumat-text{
+    display:none;
+    margin-top:8px;
+    font-size:14px;
+    line-height:1.5;
+    color:var(--ink);
+    background:var(--flag-soft);
+    padding:10px 12px;
+    border-radius:6px;
+  }
+  .rezumat-text.open{display:block;}
+  .empty, .loading{
+    color:var(--ink-soft);
+    font-size:14px;
+    padding:30px 0;
+    text-align:center;
+  }
+</style>
+</head>
+<body>
+
+<div class="masthead">
+  <div class="date" id="today"></div>
+  <h1>Rezumatul zilei</h1>
+</div>
+
+<div class="controls">
+  <input class="search" id="search" type="text" placeholder="Caută în titluri…" />
+  <div class="categories" id="categories"></div>
+</div>
+
+<div class="meta-row">
+  <span id="updated-at">Se încarcă…</span>
+  <span id="count"></span>
+</div>
+
+<main id="main">
+  <div class="loading">Se încarcă știrile…</div>
+</main>
+
+<script>
+const DATA_URL = "news.json";
+const STORAGE_KEY = "stiri-categorii-active";
+
+let newsData = null;
+let activeCategories = null; // null = toate active
+
+const todayEl = document.getElementById("today");
+todayEl.textContent = new Date().toLocaleDateString("ro-RO", {
+  weekday: "long", day: "numeric", month: "long", year: "numeric"
+});
+
+function loadActiveCategories(allKeys){
+  try{
+    const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
+    if(Array.isArray(saved) && saved.length){
+      return saved.filter(k => allKeys.includes(k));
+    }
+  }catch(e){}
+  return [...allKeys];
+}
+
+function saveActiveCategories(){
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(activeCategories));
+}
+
+function renderCategoryButtons(){
+  const wrap = document.getElementById("categories");
+  wrap.innerHTML = "";
+  Object.entries(newsData.categories).forEach(([key, cfg]) => {
+    const btn = document.createElement("button");
+    btn.className = "cat-btn" + (activeCategories.includes(key) ? " active" : "");
+    btn.textContent = cfg.label;
+    btn.onclick = () => {
+      if(activeCategories.includes(key)){
+        activeCategories = activeCategories.filter(k => k !== key);
+      } else {
+        activeCategories = [...activeCategories, key];
+      }
+      saveActiveCategories();
+      renderCategoryButtons();
+      renderNews();
+    };
+    wrap.appendChild(btn);
+  });
+}
+
+function escapeHtml(str){
+  const d = document.createElement("div");
+  d.textContent = str || "";
+  return d.innerHTML;
+}
+
+function timeAgo(pubDateStr){
+  if(!pubDateStr) return "";
+  const then = new Date(pubDateStr);
+  if(isNaN(then)) return "";
+  const diffMin = Math.round((Date.now() - then.getTime()) / 60000);
+  if(diffMin < 60) return `acum ${diffMin} min`;
+  const diffH = Math.round(diffMin / 60);
+  if(diffH < 24) return `acum ${diffH} h`;
+  return `acum ${Math.round(diffH/24)} zile`;
+}
+
+function renderNews(){
+  const main = document.getElementById("main");
+  const query = document.getElementById("search").value.trim().toLowerCase();
+  main.innerHTML = "";
+
+  let totalShown = 0;
+
+  Object.entries(newsData.categories).forEach(([key, cfg]) => {
+    if(!activeCategories.includes(key)) return;
+    const items = (newsData.items[key] || []).filter(it => {
+      if(!query) return true;
+      return (it.title_ro || "").toLowerCase().includes(query)
+          || (it.title || "").toLowerCase().includes(query);
+    });
+    if(items.length === 0) return;
+
+    totalShown += items.length;
+
+    const section = document.createElement("section");
+    section.className = "category-block";
+    const h2 = document.createElement("h2");
+    h2.textContent = cfg.label;
+    section.appendChild(h2);
+
+    items.forEach((it, idx) => {
+      const div = document.createElement("div");
+      div.className = "item";
+      const rezumatId = `rez-${key}-${idx}`;
+      div.innerHTML = `
+        <a class="headline" href="${escapeHtml(it.link)}" target="_blank" rel="noopener">${escapeHtml(it.title_ro || it.title)}</a>
+        <div class="source-row">
+          <span class="flag">${escapeHtml(it.source || "")}</span>
+          ${it.published ? " · " + escapeHtml(timeAgo(it.published)) : ""}
+        </div>
+        ${it.summary_ro ? `
+          <button class="rezumat-btn" data-target="${rezumatId}">Rezumat în română ▾</button>
+          <div class="rezumat-text" id="${rezumatId}">${escapeHtml(it.summary_ro)}</div>
+        ` : ""}
+      `;
+      section.appendChild(div);
+    });
+
+    main.appendChild(section);
+  });
+
+  document.querySelectorAll(".rezumat-btn").forEach(btn => {
+    btn.onclick = () => {
+      const target = document.getElementById(btn.dataset.target);
+      target.classList.toggle("open");
+    };
+  });
+
+  if(totalShown === 0){
+    main.innerHTML = `<div class="empty">Nicio știre găsită. Încearcă alte domenii sau un alt termen de căutare.</div>`;
+  }
+
+  document.getElementById("count").textContent = `${totalShown} știri afișate`;
+}
+
+fetch(DATA_URL, {cache: "no-store"})
+  .then(r => r.json())
+  .then(data => {
+    newsData = data;
+    activeCategories = loadActiveCategories(Object.keys(data.categories));
+    const updated = new Date(data.generated_at);
+    document.getElementById("updated-at").textContent =
+      "Actualizat: " + updated.toLocaleString("ro-RO");
+    renderCategoryButtons();
+    renderNews();
+  })
+  .catch(err => {
+    document.getElementById("main").innerHTML =
+      `<div class="empty">Nu am putut încărca news.json. Dacă tocmai ai pus pagina pe GitHub Pages, rulează manual workflow-ul din tab-ul "Actions" ca să generezi primul fișier.</div>`;
+    document.getElementById("updated-at").textContent = "";
+  });
+
+document.getElementById("search").addEventListener("input", renderNews);
+</script>
+
+</body>
+</html>

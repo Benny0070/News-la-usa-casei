@@ -1,0 +1,36 @@
+name: Actualizeaza stirile
+
+on:
+  schedule:
+    # 05:00 UTC = 07:00 sau 08:00 ora Romaniei, in functie de ora de vara/iarna
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}  # iti permite sa rulezi manual din tab-ul "Actions"
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Instaleaza Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Instaleaza dependinte
+        run: pip install -r requirements.txt
+
+      - name: Ruleaza scriptul de stiri
+        run: python fetch_news.py
+
+      - name: Salveaza news.json in repo
+        run: |
+          git config user.name "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add news.json
+          git diff --staged --quiet || git commit -m "Actualizare stiri $(date -u +%F)"
+          git push

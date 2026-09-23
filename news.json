@@ -1,0 +1,19 @@
+{
+  "generated_at": "1970-01-01T00:00:00Z",
+  "categories": {
+    "ro_politica": { "label": "Politică România" },
+    "economie": { "label": "Economie / Business" },
+    "tech": { "label": "Tehnologie" },
+    "international": { "label": "Internațional" },
+    "sport": { "label": "Sport" },
+    "politica_mondiala": { "label": "Politică mondială" }
+  },
+  "items": {
+    "ro_politica": [],
+    "economie": [],
+    "tech": [],
+    "international": [],
+    "sport": [],
+    "politica_mondiala": []
+  }
+}
