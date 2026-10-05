@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04T10:54:42.251640Z",
-  "run_number": 12,
+  "generated_at": "2026-10-05T12:03:37.900123Z",
+  "run_number": 13,
   "categories": {
     "ro_politica": {
       "label": "Politică România"
@@ -22,11 +22,737 @@
     }
   },
   "items": {
-    "ro_politica": [],
-    "economie": [],
-    "tech": [],
-    "international": [],
-    "sport": [],
-    "politica_mondiala": []
+    "ro_politica": [
+      {
+        "title": "Eugen Tomac, despre prezența AUR la guvernare: „România nu are nevoie de aventuri care ne pot izola extern” - Digi24",
+        "title_ro": "Eugen Tomac, despre prezența AUR la guvernare: „România nu are nevoie de aventuri care ne pot izola extern” - Digi24",
+        "summary_ro": "Eugen Tomac, despre prezența AUR la guvernare: „România nu are nevoie de aventuri care ne pot izola extern” Digi24",
+        "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNZGNNTzJvRk5IS2J4T3l3Z2FJVjVtTmxudjBKWUJ1ZkFhQjE4TVlDODJIaEFmRVM0a3htVW9kVEVZZzFVZGUxTmt3ajZ5N09zR1I4OW9GbUsxbzBqc1lKUEtzXzRhOHdwX3BJa1otaE1UVHp4NF9NYlVrM2lKTTBoSHE0d05vUDg2dUJpbEdGLUNkTUd4eDh0Z1V0STVSWElTWUd2a3F0alE2N2ppTlFOT25WT295OHpaTjIzeGh4UDNabEV4RW9naEVPY3R6UllKU1RIV0x5NUZaUDZyZUFGc3MtWnQ1TmpWTUl5Y0JTa3J4QdIB_AFBVV95cUxPbXY2R01RUzRpTDRhdFpHOFZBazYzT2tRZnNPVG44Wk5Sbjh3N2FrdjdhQmFCMHp4aGRGR3MwZGRvam9hOEtPWXU0eUMtaXJUMU1pS2RwXzhsbzZTMjQweGhyZ2xJd0dNNUJCTVlqcjJXZTByLW40OFFINzR1b1l4LWlmOTdkc1dMdjE1MWhCUVJRbEhQTkN3RVk5a0pqc2F4T0dvNE5RMGRQMmZvSmFQNkVsU1lvTzFyOEZUUEtlTHBmUE5scXRqTGRiaTA5Zm45LUl6U2NaUEpvbGhGYWVfakpIdVNvQzNKOE5PVVp2MnFEQWM5SVBVVzYzb24?oc=5",
+        "source": "Digi24",
+        "published": "Mon, 05 Oct 2026 09:39:28 GMT"
+      },
+      {
+        "title": "Liderii partidelor parlamentare, chemaţi din nou la Palatul Cotroceni - romania-actualitati.ro",
+        "title_ro": "Liderii partidelor parlamentare, chemaţi din nou la Palatul Cotroceni - romania-actualitati.ro",
+        "summary_ro": "Liderii partidelor parlamentare, chemaţi din nou la Palatul Cotroceni romania-actualitati.ro",
+        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOc2djbXZBU1hodjk0VFBGNDBWY3poQ3l3OUprdHBBMkhqZGMzaVYtRUlyVGJVekhBSlVBaURyRDNucGNuMGxDN3VMMWV5QmpONl9FVXFfX2lRWFBmTXAxUVVHc2hhazhUbDlqVzdtNDVlMm5NZkFDOWhSX1FMamtpdVVLWnNlVFhPMmotTVFPTV9jVXJiLUxpZnJlR0hrSEZJUTV6anlnMldmcl9adjBsdXhMZnFBRWVJd0VzUjV1eGU5WG54UGJ1WUVIZE8?oc=5",
+        "source": "romania-actualitati.ro",
+        "published": "Mon, 05 Oct 2026 05:10:33 GMT"
+      },
+      {
+        "title": "Marcel Ciolacu acuză o politică de gherilă în România - Ziarul Bursa",
+        "title_ro": "Marcel Ciolacu acuză o politică de gherilă în România - Ziarul Bursa",
+        "summary_ro": "Marcel Ciolacu acuză o politică de gherilă în România Ziarul Bursa",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQOWtDZFVycGcxT0ZJT0hOOXQ2QnBkNUplbXVPU1U5MFBXV1lpSEtaczZCN0pFX2VtenRoYjBUNHRvblRFbGJWU3R2RlppMXZLbkNucTFhTmpWdzM4bmNzLVVQY1ZfY3pYRWdpSEREbFRXMmtOMkh2N3hFcWVHSkROU0xPbDIwNTNCRnQ0?oc=5",
+        "source": "Ziarul Bursa",
+        "published": "Mon, 05 Oct 2026 10:59:25 GMT"
+      },
+      {
+        "title": "Scenariul de coșmar pentru România: Parlament dizolvat, președinte suspendat și Guvern interimar. Ce se întâmplă… - Mediafax",
+        "title_ro": "Scenariul de coșmar pentru România: Parlament dizolvat, președinte suspendat și Guvern interimar. Ce se întâmplă… - Mediafax",
+        "summary_ro": "Scenariul de coșmar pentru România: Parlament dizolvat, președinte suspendat și Guvern interimar. Ce se întâmplă… Mediafax",
+        "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxONEo0ZWY3YlA5c05DaXF5eXppcnN5QmMyc0U5OTV4cnBpbGlaMXdaYWFKdzVyTHM0S053Ukd3NUlBTjRTbXhZRGpXYmF0MEUyNEVZQnV3bkxlTmdKVU9Za2Zpb0tzRmp0MHBkcElFT2I5eHplbUV0aTNSMk1nNi1JbkVjSEtWT2pIb18taFpuOVUtRC1JaWxZLW5sQXhkZHExeWY5QV9KWWdQR1lpdkZ3dnJzSzdLV05zNTJ1QnFCazVoU3gwbEIzWi1qRDJnVzlkNnNSeENzTGRLckV5QUhoWUNZMjJIbmRrVWNIbnNEbFc2bjM4QXVqMlg4NTZrN2hHb09CdDFtdXRHV3R4NWlZV9IBlgJBVV95cUxOQUFWZTREa0xfQU5GNjZlMFpGTGVlTHkxMWQtYXdNSDZ1VVNiVnZXN0ZmTXZTS0Q5Mnh3ai0xQUpIdVo4dDJ1REdXeklmNlJaSDhzc0dtdEJlYUhYRWREc3ZzN3k0VDZHVFpDN2ZZMWZNSGZqVE1tXzE4NjdEYkgtREMyU2lsNmJtZXNNWGRNUURXR1ZLNUN1THlIdmxoRU9ueTNQMUxGRGFTU1VZSWpPYUJHLS1hVGdZR2k4VTFVcGJrS3hlVC0wejdsODJfR2l2Rkxhc3l4Qi04bGFSVlU0X0s1TjgyMndFTWozZ08ydllmbGVJQjFnN0lUc1dvZjFha2phbDBIbkdVblFyVTZMUVNHdjBqdw?oc=5",
+        "source": "Mediafax",
+        "published": "Mon, 05 Oct 2026 11:29:46 GMT"
+      },
+      {
+        "title": "Consultări la Cotroceni/ Motreanu spune că PNL are o poziție responsabilă, deschisă dialogului: Nu vom participa la competiția de nume - Agerpres",
+        "title_ro": "Consultări la Cotroceni/ Motreanu spune că PNL are o poziție responsabilă, deschisă dialogului: Nu vom participa la competiția de nume - Agerpres",
+        "summary_ro": "Consultări la Cotroceni/ Motreanu spune că PNL are o poziție responsabilă, deschisă dialogului: Nu vom participa la competiția de nume Agerpres",
+        "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTmNvV2tkZkJuSXRqRF96MXJiTUx6cDBEOE04ZTBFNmdFcHJIRkNNanJHV2hjNkdCbDZGWlphRDZvZWdIY1gtM3NiU3lhbHlacU5HaVNIcnhRUmw5N0o5cFduNU9ERkpNSnhuQ3U5LWhZSEJHOXRtVHRORThUQ1RRdEVNaUhJSWpScTU3d19raTZ1OUJFVGdLZ05ZOF9sS2dUMzBTek8tTW41X085azBCSFpCaXVfT1VxZXg2a08zRDJUVGZicFZrWEl0SEVsN0lIM2g2YVU4Ni0tYjliNGlBT21R?oc=5",
+        "source": "Agerpres",
+        "published": "Mon, 05 Oct 2026 08:48:45 GMT"
+      },
+      {
+        "title": "“România, de Rîpă”– noua emisiune de analiză politică de la Prima News, cu George Rîpă - Cotidianul RO",
+        "title_ro": "“România, de Rîpă”– noua emisiune de analiză politică de la Prima News, cu George Rîpă - Cotidianul RO",
+        "summary_ro": "“România, de Rîpă”– noua emisiune de analiză politică de la Prima News, cu George Rîpă Cotidianul RO",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQjBGZGtHeXEyRzdTT0VsTGxMSWhscXdsY1ZVV0JBVkUtc2xNajlHd1JieFlFM2RYa2VwQVNtOXlyb0VWN3hXd21rYnd4dlNYV3A5Nm0yeGxqSFRqZzhGbTZick9Pd1RITXRTRVliQ1l0NkRLTG83R293OGczOExGZ3Y1NEo5RWpFVTBIMnBqaGk3MHA1aXNfbmxtRWVWM3ZUWENjc3hMRHpkY2p3?oc=5",
+        "source": "Cotidianul RO",
+        "published": "Mon, 05 Oct 2026 09:07:07 GMT"
+      },
+      {
+        "title": "Cum vrea PSD să deblocheze criza politică: Marcel Ciolacu explică de ce e nevoie de negocieri cu toate partidele - Libertatea",
+        "title_ro": "Cum vrea PSD să deblocheze criza politică: Marcel Ciolacu explică de ce e nevoie de negocieri cu toate partidele - Libertatea",
+        "summary_ro": "Cum vrea PSD să deblocheze criza politică: Marcel Ciolacu explică de ce e nevoie de negocieri cu toate partidele Libertatea",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOVJpNWRERVpiSlU1Rm9jTU4zbGNmSnpTa1lJWk1jYl9HRUtWX3JXQzlZbTlCTFlLbFpyb1VHczJFcWF0SGZESWJ4X2N3Ul85cXVDUEhqSTU4LUdzbUQ0blNMZkVqUXF2NVZQZzlsMmJIOWtyZDU4ZmFtQ3NaeGJzTU0wbE9RaWhNUmV6RG9Gc09QNzVzQllDSWdaemNQMWlNZjVFTTZ1eGo1eGs?oc=5",
+        "source": "Libertatea",
+        "published": "Mon, 05 Oct 2026 11:46:10 GMT"
+      },
+      {
+        "title": "Consultări la Cotroceni pentru desemnarea unui nou premier. Cu ce propuneri merg partidele la Nicușor Dan - Stirile ProTV",
+        "title_ro": "Consultări la Cotroceni pentru desemnarea unui nou premier. Cu ce propuneri merg partidele la Nicușor Dan - Stirile ProTV",
+        "summary_ro": "Consultări la Cotroceni pentru desemnarea unui nou premier. Cu ce propuneri merg partidele la Nicușor Dan Stirile ProTV",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQMFo1cU50U04xamlpVWExMlFyUzVHWlAtZlZxNTFKSE5mSUtybGR1UWdNdVFSSVZ0ZHBRLWVnNndNYXU2UV9OLVBqVUtsdXo0TDVWUkUwek1lald3R0xFc2UySm82amhyaTlrUEY2R1VqMnZubkdpYU9LSnVOa2pHWWltdzM5RDhEajVZV09QT2JTUHNneEVGdFpsaUNZeldLM2lHalNnb0VXSUdPVnAtRXVTaTVOU25fRHd5SC1XVmJOMjJFZFpRTGQyWnlEbGdiT2Fqc3F0azJ6dEJGWWJyQm12am5idw?oc=5",
+        "source": "Stirile ProTV",
+        "published": "Mon, 05 Oct 2026 10:17:00 GMT"
+      },
+      {
+        "title": "Presa spaniolă: România suntem noi toţi – haosul politic a cucerit Uniunea Europeană - G4Media",
+        "title_ro": "Presa spaniolă: România suntem noi toţi – haosul politic a cucerit Uniunea Europeană - G4Media",
+        "summary_ro": "Presa spaniolă: România suntem noi toţi – haosul politic a cucerit Uniunea Europeană G4Media",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ2FZMTl2YUhLQmdSSnNobjViNG02WnhId1Q3YVFsSXRvcWZtUDZQb1o4djhKeUQweEUyZ0Qtek1vYXBGRDhZcmZlWnlzZ2NxWmFCaE1GbVMzRU1walltV3luRWVxZmpONTZpa1hqbTRhdHpFTW1DNDlUQ0VwWHJFM205S08xLTh3aDcwdjlEdGxoczdHRnlqb1V1VVFzSWlxVEJsT3ZXZ1lPZzYtYWc?oc=5",
+        "source": "G4Media",
+        "published": "Mon, 05 Oct 2026 09:36:47 GMT"
+      },
+      {
+        "title": "Alegeri anticipate România: avertismentul Moody’s - Saptamana Financiara",
+        "title_ro": "Alegeri anticipate România: avertismentul Moody’s - Saptamana Financiara",
+        "summary_ro": "Alegeri anticipate România: avertismentul Moody’s Saptamana Financiara",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15M2hOSElrS0Y5ZnBxMm5sZWtPNm5NQ2ZEa1YtbDBlczVfc181aUlodDdSYkFpZ1NrQlJDNlZLaTU0WkJoSzhLMjNSekhzSTRoS2tuRkZLLURFOWs3M2d4TTBZLTFZZ2E2T0U0?oc=5",
+        "source": "Saptamana Financiara",
+        "published": "Mon, 05 Oct 2026 07:52:07 GMT"
+      },
+      {
+        "title": "România și Italia fac front comun pentru banii europeni: 17 state cer protejarea fondurilor pentru agricultură și coeziune - Wall-Street.ro",
+        "title_ro": "România și Italia fac front comun pentru banii europeni: 17 state cer protejarea fondurilor pentru agricultură și coeziune - Wall-Street.ro",
+        "summary_ro": "România și Italia fac front comun pentru banii europeni: 17 state cer protejarea fondurilor pentru agricultură și coeziune Wall-Street.ro",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZlBhdWlQMmpyQVNTcVR0TjJreWR6ZGY1cThMQ1c2WTZFUndEWVA0WWY3R0ZNLXg4LXhIckxhazh5by1xampuZzE1d0x6TWRMMm5SZ29oYThvb0p2aElISHhYd0VIX2x4amRnSzJSNWRDOGIxUTJxcG10ZW9kWG52WEJ1Y2lMWWpfUlctVUtNNFhuTEZfZWRDZ0ZGeURsalBzMjZwNnNn?oc=5",
+        "source": "Wall-Street.ro",
+        "published": "Sun, 04 Oct 2026 20:02:31 GMT"
+      },
+      {
+        "title": "România, în căutarea unui premier cu puteri depline: Președintele Nicușor Dan va face, luni, a 4-a nominalizare - radioromania.ro",
+        "title_ro": "România, în căutarea unui premier cu puteri depline: Președintele Nicușor Dan va face, luni, a 4-a nominalizare - radioromania.ro",
+        "summary_ro": "România, în căutarea unui premier cu puteri depline: Președintele Nicușor Dan va face, luni, a 4-a nominalizare radioromania.ro",
+        "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQOF90XzY0WG0tb3FEamh1UF8xRVQ2MzJxb3RSZnJULVpvdTl5bnEzYTdLWFhDNWRBQTBvNUxobnhHZGRBcndwMVZoTWo1eHRtM3BkNkRTY1l1UDhlLXUxRXhJY1lhVlZiZHMyVFhma1N2N3ozNHBOY3JpR0ZFV3JxNWUyZjFwWXJFUHQ4RlI1ZE1aR3ZyT0M0RmF1Ukt4SUo4S0pVV2RGWHZCZUM4UlhSRWdFTEdwQmtrRXJGSTdmNENVMnplUFBvNV9OWFZ4SDR0WjRYd3BYZUp6cGtzWUtIU1M0cUNBOFVFd0dORXJ1bkpBX2s?oc=5",
+        "source": "radioromania.ro",
+        "published": "Mon, 05 Oct 2026 05:40:36 GMT"
+      },
+      {
+        "title": "Traian Băsescu spune că România putea fi deja aproape de anticipate: S-a pierdut prea mult timp - Spotmedia.ro",
+        "title_ro": "Traian Băsescu spune că România putea fi deja aproape de anticipate: S-a pierdut prea mult timp - Spotmedia.ro",
+        "summary_ro": "Traian Băsescu spune că România putea fi deja aproape de anticipate: S-a pierdut prea mult timp Spotmedia.ro",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQUVVqS21GWmZBbzVXMEdQR3g3SnJDNm5QU3c5WHR5NXFwYkZPYUFGajdELUtRNGVlRzF4Q1M4eGlNMExhdWlvR0s3WjNIVUo5THRaLTJqSG13T2huV0h1S1o4bTNTaV85bmotR2VUTmE1VmoyczZCNnVwUm04UHBsYVNjR1dGeDJRbFFFcVJOOUxiRElzNE1ISDRCMzNZa3k3aFNEVjhFWENEdlhFOWxlRmUxVDFwazZsN1otZjExeS1RYkpCZGFMODd3?oc=5",
+        "source": "Spotmedia.ro",
+        "published": "Mon, 05 Oct 2026 05:21:20 GMT"
+      },
+      {
+        "title": "Dragoș Cabat, despre ratingul României - Radio Romania Cluj",
+        "title_ro": "Dragoș Cabat, despre ratingul României - Radio Romania Cluj",
+        "summary_ro": "Dragoș Cabat, despre ratingul României Radio Romania Cluj",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE03ZFkxN3Bkb09xZjlvQ05mS1NhZXpZZmlSdERSWmNxZkw5SnktVzdVRkh3NG96LW9CY2gyd085S0dDOGZBNV8xT1c3eEZkMEdmMjVMbi1JTG9pUDYyc1AxS0pRdnBVSlI2dy1WOU4yRkhLZDhMemZrQlhTYkZkbzQ?oc=5",
+        "source": "Radio Romania Cluj",
+        "published": "Mon, 05 Oct 2026 07:38:28 GMT"
+      },
+      {
+        "title": "Dan Tănasă (AUR), după anunțul alegerilor anticipate din Spania: „Creditorii nu trebuie să primească drept… - Mediafax",
+        "title_ro": "Dan Tănasă (AUR), după anunțul alegerilor anticipate din Spania: „Creditorii nu trebuie să primească drept… - Mediafax",
+        "summary_ro": "Dan Tănasă (AUR), după anunțul alegerilor anticipate din Spania: „Creditorii nu trebuie să primească drept… Mediafax",
+        "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPZjZCLXBVQm12UjhhaTNibGNkWkR6T1lTaGdlUVlTdXpzQjFtQkpEMmxGNnpKdGJ3WHZWTFlKM2FaNGxONG9RSmlWSXljc1M4Q2NmaVVrY010d3JWdEh3ZVFHd2Z0YkstWElsSGxWTW81RHYtX2xORkctekIzdWYtdEczMEJESnVFSFRjcjF1UEtzdGtGeGVlMHZWWGhuSGdVbnZfZ0hXX1JUbjY5aUtNR254MVg2SDFrRWEwVzBvYVhUUXVWYkxmODl0aXNBUVdocWhmSWJJbkZmM1lXRjNSY3hYbjZxcG5FTGI3WUYtVlNOaFFKSHh4Y3JpMzZidTFFcXBZTXZLbDTSAY4CQVVfeXFMTXFjeW1fRlB5NnhuTEZZVkM0dVRqWUF3WkRwaUNFRy1ORUU1UVhJeDZnQXpZa2RfaElQaTRXOVpDTHZBclgybVlFV3FBSng3T1FiQUdabEVlYVFKWEU2b1pxU2I1WGVZaTNmbXJadzEzOU5zcnhTOEFZbFp0dzlYTEowamZHdzRIU2FQbXo1YXB2ZVZPM0FyV2V2U0hHbThPZjBkclR0Uk9zcXVJS1JNVUVLVEduYmNjTTNWUTdRTUowaVVraUxzSFRhRHJVVXNjbnJmMDVGeFdrQ0UxcXYxU3dhcjJoLUJ3SHNBNlo1XzhhZnI3RnJQcmlPbFkxX2pnMUo1eXpIMFE4bU1UUnhB?oc=5",
+        "source": "Mediafax",
+        "published": "Mon, 05 Oct 2026 10:34:39 GMT"
+      }
+    ],
+    "economie": [
+      {
+        "title": "Facultatea de economie, între teorie şi piaţa muncii: ce învaţă studenţii şi în ce domenii ajung după absolvire? - Ziarul Financiar",
+        "title_ro": "Facultatea de economie, între teorie şi piaţa muncii: ce învaţă studenţii şi în ce domenii ajung după absolvire? - Ziarul Financiar",
+        "summary_ro": "Facultatea de economie, între teorie şi piaţa muncii: ce învaţă studenţii şi în ce domenii ajung după absolvire? Ziarul Financiar",
+        "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOR2VRZ1VJWjNPOHJYaEJvSEF5NGhxOWc3X3FtVUpOZkRtNEZvWnVXSUVsZGd0clM3YWNadWxUSFhpUFFRS181N3RSMUNwNXB4cWRIc0NDcC1uajFKNGJyTWhNd1lsbmE2SDZvSkNaMDd6eHFDd0dqLWdjV0xHVnRTYi12UXNJQU5sWWx6MzFvMHFXRXZacFg5U1dFWmRzcW05X2ZwM0wwXzItU2JRZXVsZDMzSlFOa1M5bnhfSWZLcHFadVBaRGE2cW9sV29lSjFOV1hJVnEzeWdoT2ZMTUh3TFRYS0pSQWE3?oc=5",
+        "source": "Ziarul Financiar",
+        "published": "Mon, 05 Oct 2026 07:37:13 GMT"
+      },
+      {
+        "title": "Lidia Capmare, BRD: „Avem nevoie de o infrastructură a oportunităților pentru antreprenoare” - HotNews.ro",
+        "title_ro": "Lidia Capmare, BRD: „Avem nevoie de o infrastructură a oportunităților pentru antreprenoare” - HotNews.ro",
+        "summary_ro": "Lidia Capmare, BRD: „Avem nevoie de o infrastructură a oportunităților pentru antreprenoare” HotNews.ro",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSEZSUTJIbmJoT21EZ2RtZVZyQmFBMVZZS1RFbl9kQTRRWmJhbTBxMm00NzdxZU9aN0VyUHZkbW94V3JsLU9IckJMUHQxQzl1VzIwd3JRT2wtLXJsVjBySmhZR0JaUEJqRVVrajZ6MGpSZUxvUkhUUnRGNFR0eVZiMndZeUFyQkM0aERRbFRBYzVncndrWHp5SnNEZkdLaVBENGtMNFQ4YVFUMGwtZkVOdWIxTGNEZw?oc=5",
+        "source": "HotNews.ro",
+        "published": "Mon, 05 Oct 2026 06:35:33 GMT"
+      },
+      {
+        "title": "Avertismentul reprezentantului FMI la București: România trebuie să se gândească serios la un nou model de creștere | Economica.net - Termene.ro",
+        "title_ro": "Avertismentul reprezentantului FMI la București: România trebuie să se gândească serios la un nou model de creștere | Economica.net - Termene.ro",
+        "summary_ro": "Avertismentul reprezentantului FMI la București: România trebuie să se gândească serios la un nou model de creștere | Economica.net Termene.ro",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPcmVTemJ3UGcwVEhDb0VOdkptZ1luU0NRTW5xdFdQN2diRHhycEZidmNNeXlLa09VUll4SGlPZU95SFViZlp1Tmp2NFVzUTRJUXZURTZDYzE4aENHaDlxd1R0OWI4NEhGOEYtTEY1WDN0UmNhVnF5SXhZUDFQNDZpYmk1cEEtVHRqX0pENVVaUE5FSHpMZkw5SFhKZFV1TEhGSkVVYmFvSk91X1o4cFJ2bGNSdnhLcDRGN3pYdFVnVVJVTHdGcVl1eDRtLXF2X0VqNzlUUHYwblBXYlI5U3M0a05EQWVTeWY2NDRhOA?oc=5",
+        "source": "Termene.ro",
+        "published": "Mon, 05 Oct 2026 09:12:41 GMT"
+      },
+      {
+        "title": "Leonardo Badea, nume supriză de premier. Este doctor în economie. Câștigă 1.000.000 lei/an de la BNR - Newsweek România",
+        "title_ro": "Leonardo Badea, nume supriză de premier. Este doctor în economie. Câștigă 1.000.000 lei/an de la BNR - Newsweek România",
+        "summary_ro": "Leonardo Badea, nume supriză de premier. Este doctor în economie. Câștigă 1.000.000 lei/an de la BNR Newsweek România",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY21nNm0yeUx3UE53YTN5RExsLVNTRWFoaGxqVHFibi1HTE8zSGJFOFBjNzl6WWwwWl9aa3NBOFBWYzJ4d25Tamx2UWd6SFh2c1FGaGU5Ykx4bWxxYUhzYnZKdFRSMTZHNEt6N2NVblNBdzFURmI2Y2dHMkJFSzdDRFhJYTNiaTdVelNqM2s3bGxEOE5MRE9BTHJXaVFXV3QtT1BzOGlNUTF3S0JJRkZRYTJkdTFBOTVqWWc?oc=5",
+        "source": "Newsweek România",
+        "published": "Mon, 05 Oct 2026 10:09:54 GMT"
+      },
+      {
+        "title": "Eurostat: Firmele mici angajează aproape jumătate din forța de muncă din economia UE - www.revistacariere.ro",
+        "title_ro": "Eurostat: Firmele mici angajează aproape jumătate din forța de muncă din economia UE - www.revistacariere.ro",
+        "summary_ro": "Eurostat: Firmele mici angajează aproape jumătate din forța de muncă din economia UE www.revistacariere.ro",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa1JXQXRjamVkVF9yeDA3Zi1TSFhfSFp5NUJTUVpMbUY5LUJrbXRjWmFPNmVZOEp6NjNzVmp0Wm41MDU1QkV1WG1WSmlFSlZRUVhZX3FJamJoQ1h0YTlOZDVTeVhKalhvN0ZIU3VjOHNVRXpZR0xNamhhc3dCWFluM3JZalR2SDMxMnhkRHROckZ3QmVQNHhJVlh2V3BoRlhVTGt4WUktdzhvSTYzNGpQcG52bURQUjhmYzZwSEdB?oc=5",
+        "source": "www.revistacariere.ro",
+        "published": "Sun, 04 Oct 2026 22:30:00 GMT"
+      },
+      {
+        "title": "Vacanța europeanului, văzută de la bursă: câte companii listate întâlnești până ajungi acasă? - Spotmedia.ro",
+        "title_ro": "Vacanța europeanului, văzută de la bursă: câte companii listate întâlnești până ajungi acasă? - Spotmedia.ro",
+        "summary_ro": "Vacanța europeanului, văzută de la bursă: câte companii listate întâlnești până ajungi acasă? Spotmedia.ro",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeU5tWHRjajhEX2RlblpvamRKTG8zRlhDc2xqcThCNVhjemg0UVpzQ2NTVVlINlVkVl9VdzNGRVVKMm1ob0lCUWxYcG5wZ2NsZ0Znc1pXa1pZS0U5Zk9JYkxaczA4T2NUMmpsVzU3bEdMa0dwQUdGdEF1SXlId3FYX2xSMnNiNHdqdG9oRWJrWVN5c1o3WEpoN01BSzM5UXJnaFppRFJFRmlUZFBVbUJwZllBTHZIa3J4dG56R2dYT010T1FJ?oc=5",
+        "source": "Spotmedia.ro",
+        "published": "Mon, 05 Oct 2026 07:54:01 GMT"
+      },
+      {
+        "title": "Valentin Văcăruș, Godmother: ,,Rămânem concentrați pe piața noastră și, în paralel, dezvoltăm produse și servicii adiacente pe care sperăm să le putem exporta.” AdPlayersREPORT 2026 - adplayers.ro",
+        "title_ro": "Valentin Văcăruș, Godmother: ,,Rămânem concentrați pe piața noastră și, în paralel, dezvoltăm produse și servicii adiacente pe care sperăm să le putem exporta.” AdPlayersREPORT 2026 - adplayers.ro",
+        "summary_ro": "Valentin Văcăruș, Godmother: ,,Rămânem concentrați pe piața noastră și, în paralel, dezvoltăm produse și servicii adiacente pe care sperăm să le putem exporta.” AdPlayersREPORT 2026 adplayers.ro",
+        "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOZnpTZ0QyZ2JqZTRJWXd5SzV0WndudU5sWWdKbHo3SzBfTFozMTFQTW5zN2s2Uk4tME5qTXVPSWFXYWk3ZTF5QWo0clowVHBETWw4YTRibWotWVI2bVlDRktyblI5WDVWZ3F6anRWdXhna1Nlb1Q4Wm5HMzJXY1lFTi1JZjc3cmRzT214RzF6WmNzRXZGZmp5RmFsWnh2NUUxQUlUdWVWaVZUY1QtRjAyVlVWemRfYVQ4VkhTUlFiUElld0t5ZnRPLXVHcVR3LVMyNFEyZ2hXbDhuMFFVN19OQXItSUhsZjVvRUpUdTc4eF9kVTB0X1ZiRmtFTXFUU0NaYnc0NHlUbzRHeHFqN3BqeDl0aktUQnQ5SWdneXRnRm81ZVlMdUc5cjhyb0FzejRaTWVGRUxlaGNEZG0zRTVfaEYzUzZiMnc?oc=5",
+        "source": "adplayers.ro",
+        "published": "Mon, 05 Oct 2026 11:10:59 GMT"
+      },
+      {
+        "title": "15 ani de Lidl România: Cum se văd din biroul CFO-ului ambiţiile celui mai puternic retailer alimentar din România? - BusinessMagazin",
+        "title_ro": "15 ani de Lidl România: Cum se văd din biroul CFO-ului ambiţiile celui mai puternic retailer alimentar din România? - BusinessMagazin",
+        "summary_ro": "15 ani de Lidl România: Cum se văd din biroul CFO-ului ambiţiile celui mai puternic retailer alimentar din România? BusinessMagazin",
+        "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNcXdxX2oyc0lWU1duRnViZnBCajFXVHpkcFFyaUxrYUk4T1hveVF6MzJlZVhudFk3NWtNUVhaSGY5dUNyRG55RV81V0xvZkxjWEJMVnB1Rm5FM2lMSk1KSXdjSUdDSjI5MHZWUlAzMUdjRURIUlJnVG5wbVQteV9pX05LSWx2MzhHY3BGQm8xXzJtQS0waTBaUFcyT3VfSHNmeGJETVZkWVVZNnFLWGc4dUtabmhWb2hSeDBBSjRxaWtNb095VkVrQVVEd0JRVmJLb3BZTGdrUEN4aS1ZRDR1SXFJTWRnZWhpS3c5LUl0MmFmbHZJWkJjbg?oc=5",
+        "source": "BusinessMagazin",
+        "published": "Mon, 05 Oct 2026 06:46:47 GMT"
+      },
+      {
+        "title": "Fiscul anunță controale inopinate în octombrie: Cine va fi verificat - realitatea.md",
+        "title_ro": "Fiscul anunță controale inopinate în octombrie: Cine va fi verificat - realitatea.md",
+        "summary_ro": "Fiscul anunță controale inopinate în octombrie: Cine va fi verificat realitatea.md",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcmhqd3A1cWdQckhaYjhURkxyWmh5dzZBQkpGZlR6UFZQNWxJb2F6aGJBWDI3Qi0yYWhGbkFzWVdUM1hWcjN1NTM2YWE0azZQTnBJOU5zNk9iQ0tMZkFNa3JBTVRlMkkzRUVXaW9GTXl0YmhJS0JjZFR3cVdQRnl6dldBeGJJaVlQVGNpZlB0dndwT0Mt?oc=5",
+        "source": "realitatea.md",
+        "published": "Mon, 05 Oct 2026 09:45:00 GMT"
+      },
+      {
+        "title": "Rebecca Marina, Partener, Filip & Company: Avocatura este un maraton nu un sprint. În avocatura de busi - Ziarul Financiar",
+        "title_ro": "Rebecca Marina, Partener, Filip & Company: Avocatura este un maraton nu un sprint. În avocatura de busi - Ziarul Financiar",
+        "summary_ro": "Rebecca Marina, Partener, Filip & Company: Avocatura este un maraton nu un sprint. În avocatura de busi Ziarul Financiar",
+        "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxOOVV3WldIQ3h1R3NVZEljSHAwTXdJdklOc2NvTkhINXBQazJwb181RWlMZVN0M3FiNnVzdDVEVEl4bGdXMVp4Vk9XQUhmUS1tbklsZDJONGxCSEZSTnAtQ3JSdGtMeTNYZGlpTVVsZDAzRFNmbTk3eVJvUUZOdy0tVWpTMlVVUUlLcFFYcThaQmJLYVRmQndZWEZsdTJfbGZpZDJRLS15cThhTkppOWZPS3RLM0U1RjNmOEU0bjlTSEs2UUgxdEItN2RYVzVBc2FmdUxLNFhtRGNKa0NMUVNEVjZHXzB4OHg3T1NXdVJMN0pqZE5vWHFsdWtnendPRGdNNm9DZkFBelFvWWRRd1ZlSTVhV3YyaUlJYndsVk1lUlpRUE5WVlJBVTFsNF95R2FtUVM5UGkxWEJVM1FaRlBSMkNxVU54ZG1fbWFQSHhZZmEzVjV0bFHSAdYCQVVfeXFMTjlVd1pXSEN4dUdzVWRJY0hwME13SXZJTnNjb05ISDVwUGsycG9fNUVpTGVTdDNxYjZ1c3Q1RFRJeGxnVzFaeFZPV0FIZlEtbW5JbGQyTjRsQkhGUk5wLUNyUnRrTHkzWGRpaU1VbGQwM0RTZm05N3lSb1FGTnctLVVqUzJVVVFJS3BRWHE4WkJiS2FUZkJ3WVhGbHUyX2xmaWQyUS0teXE4YU5KaTlmT0t0SzNFNUYzZjhFNG45U0hLNlFIMXRCLTdkWFc1QXNhZnVMSzRYbURjSmtDTFFTRFY2R18weDh4N09TV3VSTDdKamROb1hxbHVrZ3p3T0RnTTZvQ2ZBQXpRb1lkUXdWZUk1YVd2MmlJSWJ3bFZNZVJaUVBOVlZSQVUxbDRfeUdhbVFTOVBpMVhCVTNRWkZQUjJDcVVOeGRtX21hUEh4WWZhM1Y1dGxR?oc=5",
+        "source": "Ziarul Financiar",
+        "published": "Sun, 04 Oct 2026 14:15:00 GMT"
+      },
+      {
+        "title": "ANI a găsit avere nejustificată de peste 238.000 de lei la un fost șef din INSP - realitatea.md",
+        "title_ro": "ANI a găsit avere nejustificată de peste 238.000 de lei la un fost șef din INSP - realitatea.md",
+        "summary_ro": "ANI a găsit avere nejustificată de peste 238.000 de lei la un fost șef din INSP realitatea.md",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcDBpNmd6UHNkdml2cEp3dHJxX19rM0FGRzVRdVR6dmxBcklxR1ZMQ3dzcTVRVExlQWVVX3Q4SVBPS3dCcmI0UGFwSTZPblZNclNyby1nUWliRGpMQXNYUXVjQlJWdnRDbEIyMHJqV2syR1VjcGp4akJNbkVnc2xGU0RES2FjQWNLNjhEYzRWS0hnVWI2RlpsQmF5RVQtN0xlR3ZDeQ?oc=5",
+        "source": "realitatea.md",
+        "published": "Mon, 05 Oct 2026 09:57:27 GMT"
+      },
+      {
+        "title": "IMM-urile reclamă un mediu de afaceri tot mai dificil: peste jumătate se așteaptă la scăderi, iar concedierile depășesc angajările - sondaj - Spotmedia.ro",
+        "title_ro": "IMM-urile reclamă un mediu de afaceri tot mai dificil: peste jumătate se așteaptă la scăderi, iar concedierile depășesc angajările - sondaj - Spotmedia.ro",
+        "summary_ro": "IMM-urile reclamă un mediu de afaceri tot mai dificil: peste jumătate se așteaptă la scăderi, iar concedierile depășesc angajările - sondaj Spotmedia.ro",
+        "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxONXppRzNGeS0tamUzTnB3aFcxTGgxcmU5cE9uOHNGWjNCY1RNUm1NTHZOdl96U3A3M1p6Rk55Mzg4OHlaTXY5Q2JDRm1BS2dNSWNOcTQ4Y2dSSGU4MUJsZFJURGxfM0pqblFhN19wcnZLRmJXRFU0ODlOakRSaXhJMm9OYmZXSjd2NEpGQ0ZoWFI2MlpDRXNjX2J1Q3RRb2N6VG9VVHZPbjFMZFktaDhDc28tTk0tM0k1NUhfaXBUbWU1RjRQUEYzdklNOUxfRDRqRVBwSXZPWFVqUHZBYUpISWp1bG40eU0tRDZ0Z3BJMHpQVG84Ym1RU2c2YWVCTEds?oc=5",
+        "source": "Spotmedia.ro",
+        "published": "Sun, 04 Oct 2026 08:11:02 GMT"
+      },
+      {
+        "title": "Polonia: Refugiaţii ucraineni impulsionează tot mai puternic economia Poloniei, cu o contribuţie de 2,4% d - Ziarul Financiar",
+        "title_ro": "Polonia: Refugiaţii ucraineni impulsionează tot mai puternic economia Poloniei, cu o contribuţie de 2,4% d - Ziarul Financiar",
+        "summary_ro": "Polonia: Refugiaţii ucraineni impulsionează tot mai puternic economia Poloniei, cu o contribuţie de 2,4% d Ziarul Financiar",
+        "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxQYWFBVUdPQ1l6UFI0X245N0k3NFAyM2lkUXM0cjVKZ0owUTBaVmYwUkhnVHRFZXpYTTl4eVRKSUFOMVhwTnpYV2xoc09jVHVwRi1zMmFkcjlncHhsZThJVEVfazdOWkRTRTdHeEdVQ2pzZ0xlTTJsRmdPMlIwUGtqSnVDYU52MmxZWVZDSEV3LU9URVFmdWNmeGRqYVgxck12VVNYcG5GVDhvcF9jVnNIeE9XMHdpaU5ZVk5xQnBMNE5JaHEtb1FSYTUzb2pXeEJIVW5RLVNoc3dWZ1U0SGtWVURwNlZfeGpfMXU1eGt5eHlKaDVQaW9JOTI3dVluYWpNMmt4a2xhUFpDeEQ4VVVZTWRnazhzLW1uVzBNeW44YkJ0WVpwOFVuRTZpSkNZcWR6V1R6b0I0QmZWazV2S2M3eTlrU1M3clNnUXNRU3JuOGZPR2ZLRzlMcVZ30gHcAkFVX3lxTE5pUmg0NUZVaE1heXpzZWlJWThxSDVXdWFXNHhkUHJIQ2xMVzUzam5nXzB5WURUZjhZRzY1dzZLNG9SSzFlSkRfc2Z6ODJhcWt0WWRNaWowTkZKZFpQQ0FySGxXcTNCX1ZRU0hidDFrakhfcW9tdEMtUkRtMzhhRmQ5ZmE0WHVmbnduOVlGYk56MGJpaDEwNnV2QkhpYzlVZ0xpUkdfa1o3bUZQQUE2WlVRMmFkN2h3ZXRpMV9mZjJVSU5ucnNUdFRiSlZyeDU5c2laLXVIVjc4bVVwUnh5ZzdpYVFKN3pkVFJPT1BGSUZlYm9wXzQzcDJlUG1ycEFKRGE2bU1IMEJXa0xFaXFwSjA3VmJjLURoWEdVOGlYbVM4VW5FY1l5QU1HQV9EQXlKQjlURjB1Nk1YN0tUWGJfR1hBQ2JJbGNaU1VONTVNLWNMN3FHcVVVbTRQazgwcA?oc=5",
+        "source": "Ziarul Financiar",
+        "published": "Sun, 04 Oct 2026 18:07:40 GMT"
+      },
+      {
+        "title": "Motorina se ieftinește cu 31 de bani, benzina – cu doar 3 bani - realitatea.md",
+        "title_ro": "Motorina se ieftinește cu 31 de bani, benzina – cu doar 3 bani - realitatea.md",
+        "summary_ro": "Motorina se ieftinește cu 31 de bani, benzina – cu doar 3 bani realitatea.md",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNLTNqT3hxcHlwckVKejVVbFV4UHk4UjVrc2ZHR1NjQXVYUngyY3cyR19FZ3E0djFnb1VuekhQNkdVSnJzR3BrLWlfRUlQM05KcjhTeV9BRFFWV3YtWEY2emRIbk5LT2RWZU9Ud2J2b0FsTmZyV1R2bVlHQTM1TXY3YUhqTUE0NS1IMVE?oc=5",
+        "source": "realitatea.md",
+        "published": "Mon, 05 Oct 2026 09:57:27 GMT"
+      },
+      {
+        "title": "Statul ridică miza pentru banii moldovenilor: Dobânzi de până la 8,05% la noua emisiune VMS - realitatea.md",
+        "title_ro": "Statul ridică miza pentru banii moldovenilor: Dobânzi de până la 8,05% la noua emisiune VMS - realitatea.md",
+        "summary_ro": "Statul ridică miza pentru banii moldovenilor: Dobânzi de până la 8,05% la noua emisiune VMS realitatea.md",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOVRuU3hOdV9CS0lqUnBWRFdkSDMtNHIzRnVfeWVCRktHQXhGeHlEc0ZXZ1BaSnEwQ0Z5aGNKOG80ejAxLUhRbzZOU3FWTWRtRVZoRG9vNlQxbXgxTXBKbnd3YVpRMzEzWG5jSXFiZm5mc2pISm13RkYzOFpQNU1IdF9MVS1ySlNZN19GS1dtU0MydkxfMmNvUFllRll6YlZ1MGlIYTRCMTV5OVl0UjM5Sw?oc=5",
+        "source": "realitatea.md",
+        "published": "Mon, 05 Oct 2026 08:03:45 GMT"
+      }
+    ],
+    "tech": [
+      {
+        "title": "Google Wants Hollywood to Stop Being So Afraid of Technology - The New York Times",
+        "title_ro": "Google Wants Hollywood to Stop Being So Afraid of Technology - The New York Times",
+        "summary_ro": "Google Wants Hollywood to Stop Being So Afraid of Technology The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbVc1bUlKVjlmY0NvTWMzX2cxbHRUdGR2RFBYUHhaR0NPeTJrdDVNTXBvTV9FUHdyMnJnUEhZXy01eUVldEl2V2hPS25mcGswQ29ReWlpRC1uS1VpTkxYMjVvMkhvcE9nTHpUWk5pQURxRm9CRW1yempGVlNUd0dRdDhQUzYyOW9NZTZFZWl3?oc=5",
+        "source": "The New York Times",
+        "published": "Mon, 05 Oct 2026 02:26:00 GMT"
+      },
+      {
+        "title": "Students, alums, faculty work to bring technology to market in pitch competition - Brown Daily Herald",
+        "title_ro": "Students, alums, faculty work to bring technology to market in pitch competition - Brown Daily Herald",
+        "summary_ro": "Students, alums, faculty work to bring technology to market in pitch competition Brown Daily Herald",
+        "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNOVdudnBabnVFNEJiQi1FOFFwTTlHaTJiREoxbkt3OUlCX3QwWlBJUjNPS1N0STBLR2x2VldhR0dZTDNaYUpHZEFBcTYwbGxFekZOQm42NFJLaXNnOVg5VkNTNk96aDRQd1d0MWh3aWl0RHZicHl5S2VFNjBqZ3d4eGxsOGZ2MjdWWWhqMElDWTduMWpBT3lXaTdzbVpsY0pHRDhsUnpFcFVTZE9nUjRsOEJscE84bi01MERLc2FDQ0xYNV9iYUNj?oc=5",
+        "source": "Brown Daily Herald",
+        "published": "Mon, 05 Oct 2026 09:50:04 GMT"
+      },
+      {
+        "title": "GW launches search for vice presidents of external relations, information technology - The GW Hatchet",
+        "title_ro": "GW launches search for vice presidents of external relations, information technology - The GW Hatchet",
+        "summary_ro": "GW launches search for vice presidents of external relations, information technology The GW Hatchet",
+        "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZDMzSWVXU3ZjVllWczhXbF9fTlBRN216OFdQNVpIVjU3QU4tZzZQY1J0aGstLUYyZU1WV3NTdHVrcEQyS3pRbGhxaFFGWkZpOHdTeXlxb1JvOUZjSWw2cHAwbnNveHdTYlV5SGdIZll4bXBIUjFXcERrejVuMFJobUtCOUJRbnppX1MzRllNQ0N1VTVGMTVreGhmZlJFNkp0ZFBlWFI1WmYwT3gycm1aU3lqYnRiaVRQ?oc=5",
+        "source": "The GW Hatchet",
+        "published": "Mon, 05 Oct 2026 11:03:16 GMT"
+      },
+      {
+        "title": "Honda Develops Underlaying Technology for In-motion Wireless Charging of EVs, Including Large Commercial Vehicles - Honda Global",
+        "title_ro": "Honda Develops Underlaying Technology for In-motion Wireless Charging of EVs, Including Large Commercial Vehicles - Honda Global",
+        "summary_ro": "Honda Develops Underlaying Technology for In-motion Wireless Charging of EVs, Including Large Commercial Vehicles Honda Global",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1pOWx4aUJKN0Z5bDZWWnpIbUpYWDFXcm5NaHVUbzM1d0w5WkF3VkJSTm16Y2lQbzh1Rmc1R3U2Zy02Q1hzd0NfU21NZ2dwU3ROUS1JOE9rUndvejdjLXNhbTFrZ2o0ZEFH?oc=5",
+        "source": "Honda Global",
+        "published": "Mon, 05 Oct 2026 08:50:17 GMT"
+      },
+      {
+        "title": "Technology Officers Navigating ‘Age of Perpetual Change’ - Inside Higher Ed",
+        "title_ro": "Technology Officers Navigating ‘Age of Perpetual Change’ - Inside Higher Ed",
+        "summary_ro": "Technology Officers Navigating ‘Age of Perpetual Change’ Inside Higher Ed",
+        "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRzdlSkNVc0NiblFOTEQtVnhlS0dTTGhiSDVXTkpSYXVRbkdScUhnQmlSUXB5NWpLT1FQQklJalRRM3VUSFNsdThRN21xRUpTZE0tWTh5U3JHanQzQmg3Nzl4bWRwQU9RZHpQOWZpbVVTUEpmS0ZoYnp0YlFUejgxSkZ6QVYtVmZfUU1MT2d1VFZsVFBFaUhNeUJQLUw4aF9maHl4S0MxNTUzSjdpaENWZlltZ0FJWUZvQ3JCb3BIM19uVFU?oc=5",
+        "source": "Inside Higher Ed",
+        "published": "Mon, 05 Oct 2026 07:02:51 GMT"
+      },
+      {
+        "title": "The Case for Technological Foot-Dragging - Public Discourse",
+        "title_ro": "The Case for Technological Foot-Dragging - Public Discourse",
+        "summary_ro": "The Case for Technological Foot-Dragging Public Discourse",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBhc0FWTjBmYkV2bGlBTW9Hd3pXSDFxM2pEM3k2R1ptcHNwU1ltS2NGMEVrc1o3MklhVUpUb0FIT2YweXFST0xoazJvTHBoR0hNaG4ybFJMd2ZudEVqUHFv?oc=5",
+        "source": "Public Discourse",
+        "published": "Mon, 05 Oct 2026 00:00:23 GMT"
+      },
+      {
+        "title": "Carpenter Technology (NYSE:CRS): Affordable Growth With Quality Metrics - ChartMill",
+        "title_ro": "Carpenter Technology (NYSE:CRS): Affordable Growth With Quality Metrics - ChartMill",
+        "summary_ro": "Carpenter Technology (NYSE:CRS): Affordable Growth With Quality Metrics ChartMill",
+        "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeTA2bDRvZzVDejdMdEoydWdkdVllQi1LUnhuS0xkVFJDWlZmb3FlTVhsb1V5ZkZrUUoxVEdNMmtGLVlvQk1Xbzl5T1FkZjRZa3g4OUUtTUF1emJmRk9MOGV1MWJpR19TYjdXYTlwTVhVUVlJaVpzNkRGMGhBM0N3d0k0QnBUeHpoenY4Mi1tcXh5RHctdldTOGRFb2JDcURNRkdXVXh6Tld1S3R0Y0xMWXgxWjdENTk5M3c?oc=5",
+        "source": "ChartMill",
+        "published": "Mon, 05 Oct 2026 09:51:01 GMT"
+      },
+      {
+        "title": "YCC doubles budget for technology forum that funded student-built apps - Yale Daily News",
+        "title_ro": "YCC doubles budget for technology forum that funded student-built apps - Yale Daily News",
+        "summary_ro": "YCC doubles budget for technology forum that funded student-built apps Yale Daily News",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcUNIN244clpDLUNaZFJMRWYzcVVObXllRnBBcmxFNkU5bXlqOE9FNUViOXRmRGswYzdFUndMbjlCNU5CUFBjNFctRENPN1NkekhTOXcyY1lCckxJNVpwVW5GYkNPamJVZkNWRmVuYVBLRVRmTFRnNkI0a21EQnVReHIyMDJ4Ry1BQXdVcFlLYjhtMVhjR3FnNFJyWVAyajlsMktWb09PaGE?oc=5",
+        "source": "Yale Daily News",
+        "published": "Mon, 05 Oct 2026 07:11:03 GMT"
+      },
+      {
+        "title": "TECH & INNOVATION: The technology of governance - The Berkshire Edge",
+        "title_ro": "TECH & INNOVATION: The technology of governance - The Berkshire Edge",
+        "summary_ro": "TECH & INNOVATION: The technology of governance The Berkshire Edge",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NWmNLM0o0MDU4S1lZRE5RaV9BcDVFbXlDT1Vhc3doOFdkcTktM2VUTmtYaWYxR01zQUlEeDNPQjZmQXM2elI4MXJxR29nVDNQUHVTS3RoRzhKMmRxM0FibXJNeGFmc3hJNUVrWHE3SjluWmh5b0c2cFhpV2dUZFU?oc=5",
+        "source": "The Berkshire Edge",
+        "published": "Mon, 05 Oct 2026 04:04:22 GMT"
+      },
+      {
+        "title": "What Would the Luddites Make of Digital Opportunity? - Benton Institute for Broadband & Society",
+        "title_ro": "What Would the Luddites Make of Digital Opportunity? - Benton Institute for Broadband & Society",
+        "summary_ro": "What Would the Luddites Make of Digital Opportunity? Benton Institute for Broadband & Society",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LWWV3cUJjUWY0WFNFcGNrLVpuQ01yRUhVTmxCeVZ1MDJ1VjN1ZzNfV2d5N3lQTG1SSEZIT2dvVjYxV3V5SW1uaEVMUnJCRlZPTk43SnhjbWpNaktlZi1YamxCM2VqVHliVHBkNlp6bmlscnQ0YTBLR0dkeEc?oc=5",
+        "source": "Benton Institute for Broadband & Society",
+        "published": "Mon, 05 Oct 2026 11:00:34 GMT"
+      },
+      {
+        "title": "'The capabilities are endless': AI expert sings praises of growing technology - Post and Courier",
+        "title_ro": "'The capabilities are endless': AI expert sings praises of growing technology - Post and Courier",
+        "summary_ro": "'The capabilities are endless': AI expert sings praises of growing technology Post and Courier",
+        "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQVGZSMXp0N3Zwd2RSV1V1LW9wYkxFWk02VG0zLXRlQ0hTdFY1NUE0X0pCODBnTVRMOWU2VnloQW1YM1RtdlVKMVRxZTJaTV8xT0Y1bWdUMWtfM0JKTS04TGlTXzlxRlNKU1FhSHdubU5GSzZLN1lSVmlSTGdMWkhGMk1PR21rbTM2NzZYOU5LeEozV1RBZTRDM3p5ME13eHFtUHA4TU9BZ3dqSmF4QjVHanFwU3hwd0tmQ2wtTkdGb2tTcmk2aGd6c05BNktVODJtalR2TGVaUi1JWVNMNHk3SWtHZmpsSVAyQnVmMkZuaUg?oc=5",
+        "source": "Post and Courier",
+        "published": "Mon, 05 Oct 2026 09:00:00 GMT"
+      },
+      {
+        "title": "Influential Women Showcases Natalie D. Romano: Transforming Global Sales Readiness Through Technology And Leadership - EIN News",
+        "title_ro": "Influential Women Showcases Natalie D. Romano: Transforming Global Sales Readiness Through Technology And Leadership - EIN News",
+        "summary_ro": "Influential Women Showcases Natalie D. Romano: Transforming Global Sales Readiness Through Technology And Leadership EIN News",
+        "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQUEotcmx6Qkg3d0ZKT3dscVM5RU03Wmh5bHRQZ3huVXA1c3NybjVlX3hKQ0NvdVU2YjIwODhVTlktRk1ZMmVMLXAyNmRPSElNWFlicU8xYzJDUGxoQWR5bkpTOGN3MXNHMmlKUUpyNEFhX3Vxa1hyeEJkempkQU10eHZHQXRZU0NoY3Y2ZHVUcWg2NDY2NHN2TXpIeEJHNzdJTDJEUjRLVEtvYzJxUDZPaHpHbVV2Q0w5cXpKdmg0SXZLQ005UmpNdTdSbkNVWkhMSlljeFM0RWdSMWMxdHBTZENGSlE3UG0zMWRvVWxB?oc=5",
+        "source": "EIN News",
+        "published": "Mon, 05 Oct 2026 11:29:20 GMT"
+      },
+      {
+        "title": "Military Modernization Paradox: Technology and the Lag of Institutions - smallwarsjournal.com",
+        "title_ro": "Military Modernization Paradox: Technology and the Lag of Institutions - smallwarsjournal.com",
+        "summary_ro": "Military Modernization Paradox: Technology and the Lag of Institutions smallwarsjournal.com",
+        "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUW56QmFfNHRYNER1aGVxUlgzb2NrVWh2V3ZqUlpQWEpqVUhQTS1oNW90TGVIM2tRQ2tVWUZZN1BWeV9RZ2txVEtRRXU3LTlqemcyWm9oOUdQR2NOY2dGZ2lULVpVaHhtS0J2c0UzWkNNQ1BFc0J1SzVzd2VqeFg2NWlHOFN3eDZUVGFoME1MUXhmZDFzeldiRTFTdmZEZjhOMlRQZUM2X2tHV3puSGFJ?oc=5",
+        "source": "smallwarsjournal.com",
+        "published": "Mon, 05 Oct 2026 06:12:37 GMT"
+      },
+      {
+        "title": "EMERGING TECHNOLOGY HORIZONS: To Counter Drones, Army Must Get Out of Its Own Way - National Defense Magazine",
+        "title_ro": "EMERGING TECHNOLOGY HORIZONS: To Counter Drones, Army Must Get Out of Its Own Way - National Defense Magazine",
+        "summary_ro": "EMERGING TECHNOLOGY HORIZONS: To Counter Drones, Army Must Get Out of Its Own Way National Defense Magazine",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcmF0Q0xEd2NRMVRFcUs4dlRFa0lna1hQcUxqQzhOS2NTMl9yZXVjTHdYcHl1dUl5VTlfeDFqU08wbThTX0FNUmxONl9pUnJUdHZGS1dkdmZfS29UT2UyVzRGeWVsN0REZ3hDNy1XUm4wbnZlNmF5a19DTk1qa01XdkZDTmE4Y2hOUE01WG8zNlNDYkQxazdZX0ZvejNkbWVjbjFlMVVuWlJXTkMzS180WVBOdw?oc=5",
+        "source": "National Defense Magazine",
+        "published": "Mon, 05 Oct 2026 04:53:41 GMT"
+      },
+      {
+        "title": "From Vision to Action: AI on the Drone - Unmanned Systems Technology",
+        "title_ro": "From Vision to Action: AI on the Drone - Unmanned Systems Technology",
+        "summary_ro": "From Vision to Action: AI on the Drone Unmanned Systems Technology",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVzg2c2NxUjRQdHZfZERoakdtUmk1eDFxUDVhSzhmVUdDTExOTXhOQkYwM2pWZDgzajlkOFI1UWJtNnVVVE1GMGZ2b0tsMlBiUFJMODVOUWNkY19nU3EwWXlpUWRMaUJBczhaZGxSN0h5cm1zWGsxZlBaT09tdmUwSUVuVUg5cGllQ2pLYXljUQ?oc=5",
+        "source": "Unmanned Systems Technology",
+        "published": "Mon, 05 Oct 2026 09:22:50 GMT"
+      }
+    ],
+    "international": [
+      {
+        "title": "Hundreds of French schools stay closed ahead of nationwide day of student protests - Reuters",
+        "title_ro": "Hundreds of French schools stay closed ahead of nationwide day of student protests - Reuters",
+        "summary_ro": "Hundreds of French schools stay closed ahead of nationwide day of student protests Reuters France closes up to 500 schools Monday over student protests BBC High school students in Paris' deprived suburbs spark national protest movement Reuters French education minister says up to 500 schools will remain partially or fully closed on Monday after student protests – Europe live The Guardian What to expect this week from school protests rattling France's government abcnews.com",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM2hsMDFzX0Q1QTMzeEJpSHVybjh6OS1iWDN4OEVpM3RaNlRFY3FOUnRwTXdidExTVlprbzgyS09oc1FEck40bjhaWUEtdk1aYmZjZzZXQVp3U19KRjJmcWR2eHU0Q2xUcUN2d1RqWTJFaVQwSzNFS3Mxd2NjZy1JSG5FRk5GSndFekc3eWVHaWdlUDRvZzFrNWR3WFBCYmRzTkxZSU5TMnQ0Z1JoUDIyeHUyRVBZQQ?oc=5",
+        "source": "Reuters",
+        "published": "Mon, 05 Oct 2026 09:56:26 GMT"
+      },
+      {
+        "title": "Japan summons US envoy as Marine arrested over killing in Okinawa - Al Jazeera",
+        "title_ro": "Japan summons US envoy as Marine arrested over killing in Okinawa - Al Jazeera",
+        "summary_ro": "Japan summons US envoy as Marine arrested over killing in Okinawa Al Jazeera 'Not again': Arrest of US marine for murder reignites protests in Japan's Okinawa BBC US Marine arrested on suspicion of murder in Okinawa, sparking outrage in Japan CNN Japan Protests After U.S. Marine Accused of Murder WSJ Japan Demands Tighter US Troop Discipline After Okinawa Killing Bloomberg.com",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSk5hVVhEeHdBcW41SkxsWm56LTdGMlFBRkFYdWNXdmR0UUdHUlFFcUdlZGcxU1RxRXRlOFpQVjlfdVRqTkdjSEJNUDRLT2dxUDdkcXRuN05FWUE4MkNzTzM5T3ZIODZvLVFrUnRrWm53cWQ3QlAtbzltRkd1VXFoZkw5LUQ1VENlbGtyRHk1OEwtb2lxMkhDYzJlWExxS2hqaEdtONIBqgFBVV95cUxQeVFUZE1UWUZUYU9NNVFYc2tRWHE4OHYwbHRtVHRKQloxcFJWUTdIV1pSN242Z1R3cXlqZGtZMFZVUzRrX0R6VHFTTjA4MmVqbnpPSnB2ZnNpQ1NUR0dfVHZSMEtPRC01dm1JUzVZUWFmOTFtTkJHM25tRnVzazM5ZTdjYkFUblNfS0hJSU42MlJCV1VZdWpfcUJJZnhuSzJuMjdpR1RGSEdtZw?oc=5",
+        "source": "Al Jazeera",
+        "published": "Mon, 05 Oct 2026 10:07:20 GMT"
+      },
+      {
+        "title": "US removes all bombers from RAF Fairford base - BBC",
+        "title_ro": "US removes all bombers from RAF Fairford base - BBC",
+        "summary_ro": "US removes all bombers from RAF Fairford base BBC U.S. Rushes to Withdraw Bombers From U.K. Air Base After New Threats The New York Times What we know and don’t know about how Iran uses asymmetric warfare AP News U.S. military removes bombers from U.K. air base following security incident CBS News Did a terror plot trigger US bomber withdrawal from British air base? | Morning in America Yahoo",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sQWVFSUdKejVrT19uNkJyZjU0SkMyV1ZXOUE2c0NvejREYTFNUk1kaTI3cVpKNFBhOFczRmdreVBUREdvV2lfY0xVUTY4WVBISDdmMUJwRl9oZUE?oc=5",
+        "source": "BBC",
+        "published": "Mon, 05 Oct 2026 09:20:45 GMT"
+      },
+      {
+        "title": "Spain Election Live Updates: Sánchez Calls for Nov. 29 Snap Election After Housing Crisis Roils Government - The New York Times",
+        "title_ro": "Spain Election Live Updates: Sánchez Calls for Nov. 29 Snap Election After Housing Crisis Roils Government - The New York Times",
+        "summary_ro": "Spain Election Live Updates: Sánchez Calls for Nov. 29 Snap Election After Housing Crisis Roils Government The New York Times Spanish election: Pedro Sanchez calls snap election for 29 November after housing protests BBC Housing, Corruption and a Migrant Surge: Why Spain Is Holding an Early Election The New York Times Spain's PM Sanchez calls snap election after housing crisis protests CNBC Spanish Prime Minister Sánchez calls early election after housing decrees rejected - as it happened Reuters",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01UkFBaFdiMmxvMmJsYnJ5eVlFT0tjY0ItaDExVmV3MzJYRW5kRlNKUTZzdEhOUEJxT0s2V3FpUDBobnNBOGItRnFWZVRXZHktOEhtRmJfTm56X0NTMjlKNUVjc18tdmZKaUdlQzNVa3RRM0xVUVBpVQ?oc=5",
+        "source": "The New York Times",
+        "published": "Mon, 05 Oct 2026 11:43:13 GMT"
+      },
+      {
+        "title": "Scoop: White House monitors suspected plague outbreak in Russia - axios.com",
+        "title_ro": "Scoop: White House monitors suspected plague outbreak in Russia - axios.com",
+        "summary_ro": "Scoop: White House monitors suspected plague outbreak in Russia axios.com Lab worker ‘possibly’ dies of plague in Siberia, prompting quarantine measures The Guardian Russia hospitalizes almost 200 people after researcher's death from plague: Reports CNBC US monitoring suspected fatal pneumonic plague case in Russia, State Department official says Fox News Russian lab worker dies of suspected plague as 200 enter medical observation NBC News",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XOWV5amNoaTYwcjNNS1liVl8ySTBaX2tmNzNac2JZNGpDN0ZkQ1dRZ2txa2JuVXRyZkNkaWZhYzJIQk8yVmZ6YXc3aGFQcnMyX0IwN3QwanlTVm9qY1RCWVhLQi1UQ3VLNE45Zi1DREVKMmY1RDNKNURB?oc=5",
+        "source": "axios.com",
+        "published": "Mon, 05 Oct 2026 07:57:41 GMT"
+      },
+      {
+        "title": "Andrew Mountbatten-Windsor takes legal action against UK police over Epstein arrest - CNN",
+        "title_ro": "Andrew Mountbatten-Windsor takes legal action against UK police over Epstein arrest - CNN",
+        "summary_ro": "Andrew Mountbatten-Windsor takes legal action against UK police over Epstein arrest CNN Former Prince Andrew files a legal action to quash warrants that led to searches of his residence New York Daily News Former Prince Andrew Sues UK Police After Arrest Linked to Epstein Investigation The New York Times Andrew Mountbatten-Windsor launches legal action against police over Epstein raids The Guardian Hearing to take place after Andrew Mountbatten-Windsor launches legal action against police over arrest Sky News",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUWhXbUFpcDZrVk9oWWlVenk2VUtWcW5zd0RSaHBLSFpZNnpPR05rTWNrQU1Vemxab2YzZ3ZrQ0dvRU9zdU5LaVFSa3dYZmRERTNPeWl2N2Z3SlZsamN1MWZzaG1VSUgydVU0cUhJTVNBVmJVQWI0RF80c1VBUVFOYUU0M2hfTV8tdUQyWXJwRWdQUG8?oc=5",
+        "source": "CNN",
+        "published": "Mon, 05 Oct 2026 08:44:48 GMT"
+      },
+      {
+        "title": "UAE had shared FlyDubai flight details with Israel, including info on pilots, officials say - AP News",
+        "title_ro": "UAE had shared FlyDubai flight details with Israel, including info on pilots, officials say - AP News",
+        "summary_ro": "UAE had shared FlyDubai flight details with Israel, including info on pilots, officials say AP News Co-pilot planned flydubai attack before joining airline, two Israeli officials say Reuters How a Pilot Deemed Unfit to Fly Ended Up in the Cockpit of Flight 1073 WSJ Flydubai hijacking attempt exposes worrying gaps in aviation security CNN Who are the mystery men who stepped in to keep the FlyDubai plane from crashing? AP News",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUDB6OUQwcTRCN3p2Mnl0MnY3Mlk4S2pITUZacXlNVDhaV2RkbFo2VUtIOGd3TGxCZVZ5bmhWNXNESUlsN09BX21NaUtLSkFSNjFjdVlqaXpZZDNGRWFlekoxTzlTd2FlbFh2cXF0WnVtSEk0T0t3VkF5Nkx4M3RYVmprS21Cd2FHbUcyaV83OEdVcDBQSWwyaXRmckE1YkJxTVQxVWhIRQ?oc=5",
+        "source": "AP News",
+        "published": "Mon, 05 Oct 2026 01:27:00 GMT"
+      },
+      {
+        "title": "Saudi-Backed Yemen Forces Begin Bid to Retake Houthi Areas - Bloomberg.com",
+        "title_ro": "Saudi-Backed Yemen Forces Begin Bid to Retake Houthi Areas - Bloomberg.com",
+        "summary_ro": "Saudi-Backed Yemen Forces Begin Bid to Retake Houthi Areas Bloomberg.com Iran war live: Yemeni army makes gains; Tehran says ready for US attacks Al Jazeera A Saudi-led coalition says its fighter jets are bombing Yemen’s Iran-backed Houthi rebels The Hill Yemeni government launches offensive to seize all areas from Iran-backed Houthis Reuters Yemen’s Saudi-backed government launches military drive to retake all Houthi-held territory The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNZTdURzFGUXJvVUJHYUlJNl9nSlFkaFFyd0ZOZWRtSlhYN3lDcjdIc1BBM3YtMUpRS01kMHM4THdXcGtqYlhXcHdzaGhUUWc1WWduamJLYzd3aUhPLVhXYkY2eEhHVC1CcEVpQjR6YS1kWXY5Zy1fb3hrNnJFLWJqRzhTSWVMSmExWVN3NS1ZYlVrZGhGanEyRHZZUnU5amF2TFg5RFdfdVNhNzJ3eWxEb0FmbmJIZw?oc=5",
+        "source": "Bloomberg.com",
+        "published": "Mon, 05 Oct 2026 05:03:00 GMT"
+      },
+      {
+        "title": "Ethiopia’s forces retake Mekelle amid renewed Tigray fighting - Al Jazeera",
+        "title_ro": "Ethiopia’s forces retake Mekelle amid renewed Tigray fighting - Al Jazeera",
+        "summary_ro": "Ethiopia’s forces retake Mekelle amid renewed Tigray fighting Al Jazeera Ethiopian conflict: TPLF forces withdraw from Tigray regional capital Mekelle BBC Drones over Addis: How Ethiopia’s rebels are trying to nationalise the war The Africa Report What to Know About Fighting Between Ethiopia and Rebels in Tigray The New York Times Analysing Africa newsletter: The war everyone saw coming The Economist",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcU5YbjVUUnNodzJYQkliQUZseHNPWE9xbUVmaVA0WWhfZ3pza1pmMEdqSTloajlTcUdSeWZ5SWlGdmZPOTQ5bjBrMDhuRkZTZWFmcUlTVEs2b0ZIWGY4TGxJcDZhSl9ETTZEMjZtZktpU2tEVWVDNUNjMV9Cd0huZ18xQjJkZ21SSXh1SkM0dndtaDVZZVdrcDdYai1pREtHXy000gGoAUFVX3lxTE9yTEJUZ1V5cE45LWVQYmRnT3pRZDdKWjRra01DZHlVWVFTZkVmeFAyR0hBWnhWcUtCeWpzUW5CTUo2N3NKVUUwUEZIZjhZUG8zNVRVc05kTVVBSG1KYjdKUTN1cDZRVUZlUFVQbU1IN1pKQnZJanNwbDZ1QmtNWXFPelBOVzZvZmw3Ym5iUWRCd1FZRXRsRm5WcWlpaTg4aWEwTEh1VVhDVQ?oc=5",
+        "source": "Al Jazeera",
+        "published": "Mon, 05 Oct 2026 09:05:35 GMT"
+      },
+      {
+        "title": "Merz and Mathernová send a message to Moscow from Kyiv - Euronews.com",
+        "title_ro": "Merz and Mathernová send a message to Moscow from Kyiv - Euronews.com",
+        "summary_ro": "Merz and Mathernová send a message to Moscow from Kyiv Euronews.com Ukraine war briefing: Germany’s Merz pledges €1bn in military aid to Kyiv as Russia ramps up attacks The Guardian Merz unveils fresh military aid in Kyiv, says Germany won't be intimidated Reuters Europe Today: Russia hits Kyiv as Merz visits; Bolsonaro wins Brazil's first round election Euronews.com Germany's chancellor arrives in Kyiv on unannounced visit to pledge more military support to Ukraine DW.com",
+        "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOV0RzY1FmV1ZSODFCd3R0ZllRa2lubm83MjB2azlEcnVZbmd0MmdvTWJySGkydEttZERTdDFUc2hCcl9wM1JTbTEyYXlMRGRfT0QwQzlURHVuc0tCNjItYVZtVnU2Z0JVbUQ4d01ZRFpQajlod1pQZEwxNE1qNEpTVmxwY3NlMk1peXFvRzBfZ09LbFlM?oc=5",
+        "source": "Euronews.com",
+        "published": "Mon, 05 Oct 2026 06:40:36 GMT"
+      },
+      {
+        "title": "2026 Brazil Elections: What to Know as Lula and Bolsonaro Face Off - The New York Times",
+        "title_ro": "2026 Brazil Elections: What to Know as Lula and Bolsonaro Face Off - The New York Times",
+        "summary_ro": "2026 Brazil Elections: What to Know as Lula and Bolsonaro Face Off The New York Times Brazil Elections Head to Runoff Between Lula and Bolsonaro The New York Times Son of disgraced ex-president Jair Bolsonaro takes election lead in Brazil | First Thing The Guardian Brazil’s presidential race: Three key takeaways from the first round Al Jazeera The Bolsonaro comeback in Brazil The Economist",
+        "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNU3Z1akZ4cDU5MThrTzBKTk9kMkJhLThaQzBoSE9aWDF5SE1RMG5RVDhXal9vbEppSUllMXliWEc2a3l5T1BrX2pzemsxSjB3U19zNlp1Szd0TWlScTBKb1ZPVjZTQVVDbEk3RmNVNXYtSlBVTVhHczI1WDN3dUhiNFNWMEdacGZnQmhzMjA4ODBpY093U21ySF9KSktna3UwNUxOSDBqSG8?oc=5",
+        "source": "The New York Times",
+        "published": "Sun, 04 Oct 2026 09:02:23 GMT"
+      },
+      {
+        "title": "Russian drone slams into Kyiv bridge in escalating campaign as Germany’s chancellor arrives to airsirens and explosions - CNN",
+        "title_ro": "Russian drone slams into Kyiv bridge in escalating campaign as Germany’s chancellor arrives to airsirens and explosions - CNN",
+        "summary_ro": "Russian drone slams into Kyiv bridge in escalating campaign as Germany’s chancellor arrives to airsirens and explosions CNN Russia's attacks on Ukraine escalate as its drones target bridges in Kyiv NPR Russia Turns to Striking Kyiv’s Bridges, Threatening a Vital Lifeline The New York Times Zelenskyy says Ukraine will intensify oil refinery attacks as Kyiv bridges come under fire DW.com Russia says it hit Kyiv bridge, two vessels in Black Sea Reuters",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA2Z1ZGcDhUVC1tcHFEcjFNZnRzS3hlS1pNSmQ4LWstNEhzeVRRdzdvcGdTYnJ4aDA5MTlwMUFJd0ViZXhNcGUyb2w1bVlCSEZwMHdiY0Joc25EM2NReGJzdjVzRE4yeDdqdEZvZFlkQzAzaGtjblM1OQ?oc=5",
+        "source": "CNN",
+        "published": "Sun, 04 Oct 2026 09:27:15 GMT"
+      },
+      {
+        "title": "Serb separatist Dodik declares victory in Bosnia vote as ethnic tensions and EU hopes collide - AP News",
+        "title_ro": "Serb separatist Dodik declares victory in Bosnia vote as ethnic tensions and EU hopes collide - AP News",
+        "summary_ro": "Serb separatist Dodik declares victory in Bosnia vote as ethnic tensions and EU hopes collide AP News Bosnian Serb nationalist Dodik declares party victory in Bosnia election The Guardian Leftist, nationalists set to win election for Bosnia's tripartite presidency Reuters Pro-Russia strongman claims victory in Bosnia elections Financial Times Bosnia general election 2026 explained in maps and charts Al Jazeera",
+        "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZW5aeFVWYlo4bXFNSVpQQXFndld4cHRJcVk3REVzYW9oMy1ZR0taVnh4b3czcGdGZnRraVJyd0U2VmZVYWdhVzI1R2o1X281QnNsbWs0eHVuY09WRnVVSGItRHFocDJkT3cyb0VDLS1POGM5ZkE1b0UxX0htVVJ2MEdweENxWnVlbzBNM1IySWkwTW8wckRBSlJldWlnVzJseUxz?oc=5",
+        "source": "AP News",
+        "published": "Sun, 04 Oct 2026 20:54:00 GMT"
+      },
+      {
+        "title": "Latvian PM on track to lead pro-Ukraine coalition after election win - Reuters",
+        "title_ro": "Latvian PM on track to lead pro-Ukraine coalition after election win - Reuters",
+        "summary_ro": "Latvian PM on track to lead pro-Ukraine coalition after election win Reuters Latvia PM Kulbergs wins election held under shadow of Ukraine war Reuters Pro-Ukraine governing coalition wins 35% in Latvian election AP News Latvia’s governing party wins parliamentary elections by wide margin Al Jazeera Latvians head to the polls with Russia on their minds DW.com",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVFNoVUJwWFRHa2hyMjdWTnQwNWJzeEsxN004aTEwczk5Y2tDeW0wdW9od2FjUlJNVVBLTUEtRTJ3YWlQaHgyTlZxV2RBVEdsMERUdnZzU1BQeVhrTXRnR0RuSXJlUUFhWkNRanY5akk5aEE5aTdMUGxBaFFSRjlZbzd3N00yWjRIRjMyZlIyUGNCOTNaNjc1QUcwSWlUWGtOaEhyU2F2WVB4NXA1WnY2Tw?oc=5",
+        "source": "Reuters",
+        "published": "Sun, 04 Oct 2026 16:52:43 GMT"
+      },
+      {
+        "title": "Nobel Prizes 2026: What to Know - The New York Times",
+        "title_ro": "Nobel Prizes 2026: What to Know - The New York Times",
+        "summary_ro": "Nobel Prizes 2026: What to Know The New York Times Nobel Prize in medicine awarded to trio for technique that helps decode mysteries of the brain CNN Nobel Prize in Physiology or Medicine Is Awarded for Discoveries in Neuroscience The New York Times German and US scientists win Nobel medicine prize for work on optogenetics Reuters Nobel prize in medicine 2026 awarded for research into mysteries of brain The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1ZeGpXS210X1AwMEZhalh2TnNzazNuR0dkang5bnVmLUw1SThBMVpYRXRLMmRvcmJmNlpIQXJTRi0waDBycFM4RVA1UUo2U3pvY3dMWmRnT0wwR2NUSE5XUjhiNnk?oc=5",
+        "source": "The New York Times",
+        "published": "Mon, 05 Oct 2026 06:29:41 GMT"
+      }
+    ],
+    "sport": [
+      {
+        "title": "România - Suedia, de la 21:45, LIVE TEXT pe Sport.ro. Absenții lui Gică Hagi pentru al patrulea meci din Liga Națiunilor + Cine ar putea juca atacant - Sport.ro",
+        "title_ro": "România - Suedia, de la 21:45, LIVE TEXT pe Sport.ro. Absenții lui Gică Hagi pentru al patrulea meci din Liga Națiunilor + Cine ar putea juca atacant - Sport.ro",
+        "summary_ro": "România - Suedia, de la 21:45, LIVE TEXT pe Sport.ro. Absenții lui Gică Hagi pentru al patrulea meci din Liga Națiunilor + Cine ar putea juca atacant Sport.ro",
+        "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNNUJTWTBmVU9kMVkwSzBBb1ZvUW9mOUpFRWRLeFVMNkhDanhudzBqUnRIZkRJcUhfSnAtN041Zk52OHRpY3Zxbms1VFhhRWZOTzA0WG9Ha04yNU4zV3FYSUpnZjZnR3cyQ1k3Yk1waUh3UURMSWlpTTlHcUE1NFRuSHl2cjNNMzVORHVRT2ZHWXljU1BzR3lxTW9HbkEyaGtOZk5oa1M5Q21wSHZIZmlzbXJ2Q1YxcmlfQXNKWE9iQ3lnSjVPTms5RkJ5UUhnQmljYUtIYmVadDNGTlBoYzY1QUlFTlRUNVhhZnhaNHhyLXE5dlVUNXQ5OE4ydzJ0X0U3OGNWcHM5SQ?oc=5",
+        "source": "Sport.ro",
+        "published": "Mon, 05 Oct 2026 10:21:31 GMT"
+      },
+      {
+        "title": "FRF a luat decizia în cazul lui Gică Hagi! Un singur nume de înlocuitor pe listă - Digi Sport",
+        "title_ro": "FRF a luat decizia în cazul lui Gică Hagi! Un singur nume de înlocuitor pe listă - Digi Sport",
+        "summary_ro": "FRF a luat decizia în cazul lui Gică Hagi! Un singur nume de înlocuitor pe listă Digi Sport",
+        "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcmlRVnlNY1hyRS1STVhKdFlUQ3NGSzNad2lmZ3N3b1ZFNW1aVlFEakh5OVJ6bnU4MW1wQVYzVTE5LVA4WE1tUDNpOHFZSU90UmU3eUNQeGlmdjVTQUc1a0NmMVpJbTc5OHZoTFpZUWs0SzJUdk1OdEtwSzM3XzJBcG1tTDI2TC1vRjdzUmhoUW9idl8xRW1YbFZIeWVKekJWNFNrRTlPZGtkc0N3dlpMUXVQZWgybFgtdTZydi1yLUxYT2hDT281TkJjLXRleWVNMkHSAdwBQVVfeXFMTUs2OWU4cEVWZnlnSGo5UUIwMjRyRTZlc192TkFxVmpFbUdPdFN4aFFLRmVjbkpEUGItLWt0LXh4SkxhN3hkcmZ2WExWdzAwa0dnckJhR3M0VkIwT0hweXZCbjBPajJqaXpjVWRXS1BQUF9PcnZ4SDNfNU5adW5tTVdEN3J6ZDBGOVNMYTNmRWRIUThhdzJUVE90RmpybzlxdmY4UEFFQ002eWtUcWFvZ1Y4UXpnTDlhcnNCa3hJTEt4Z3pOcWNET1J0TmxvdlhrM0VtT2Q2VU8ybnkwSA?oc=5",
+        "source": "Digi Sport",
+        "published": "Mon, 05 Oct 2026 05:03:00 GMT"
+      },
+      {
+        "title": "Handbal: Corona Brașov câștigă în Europa - romania-actualitati.ro",
+        "title_ro": "Handbal: Corona Brașov câștigă în Europa - romania-actualitati.ro",
+        "summary_ro": "Handbal: Corona Brașov câștigă în Europa romania-actualitati.ro",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeWh5TGIzTDNqQ0JZTDJRQ0NJcTFTYkVJSjE0cjBjLWNxSHFyMVN0WnA2ZFdaMU1pNHBuQy1veEI1R3lEOEE1ZzlZeG9RWC1IZjFPd194Z3g3WlNaVXVkSVMyQXZCMThlN05KMjl6Y1pjYmNyc3lKcTg0UjZRR2tQdV9SSTRidzladHM1TGhMRUV1OG9vc3dMNEYtbUE5ZFh5dHc?oc=5",
+        "source": "romania-actualitati.ro",
+        "published": "Mon, 05 Oct 2026 05:26:39 GMT"
+      },
+      {
+        "title": "PASTILA DE SPORT - România – Suedia: de la fantoma lui 1994 la cutremurul care poate zgudui fotbalul românesc - RFI",
+        "title_ro": "PASTILA DE SPORT - România – Suedia: de la fantoma lui 1994 la cutremurul care poate zgudui fotbalul românesc - RFI",
+        "summary_ro": "PASTILA DE SPORT - România – Suedia: de la fantoma lui 1994 la cutremurul care poate zgudui fotbalul românesc RFI",
+        "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQNndwMnRONDFVbVdKRzB1MEZVdDNac01sY3dKeDIyVDJ2ckFsNmdDV1Y5MldDcW1tTFJoQjQ3NFR0V2d4WlpVbFM3V0lTdFVURHMyZjBJOW9Ga21KTUwwOVpldmFiY3N1RjBGVEJJLTRidW5xZnpRSk9WcGM0bW5wNGpGdjB2OUpldFZQVEFLb3RzcGNjUElfYUR2NldxVDFKd3FVdEhkMkxYZFRGbWRTMHdmcVprdWRldEljSzF6NGVXZXcyZ3RDN1h1NmZlU09EMW1FdUtVa3lFOUNSaHp5NTVyOW5XMk1peVFfV290SE0yMi0wOVlSd1h3?oc=5",
+        "source": "RFI",
+        "published": "Mon, 05 Oct 2026 05:46:56 GMT"
+      },
+      {
+        "title": "Nu ne așteptăm să poată atât de mult. Despre sport, dizabilitate și prejudecățile care se ascund uneori în cele mai bune intenții - republica.ro",
+        "title_ro": "Nu ne așteptăm să poată atât de mult. Despre sport, dizabilitate și prejudecățile care se ascund uneori în cele mai bune intenții - republica.ro",
+        "summary_ro": "Nu ne așteptăm să poată atât de mult. Despre sport, dizabilitate și prejudecățile care se ascund uneori în cele mai bune intenții republica.ro",
+        "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTG9mdjB5SjhkdXlVWEF6dmVWREFUWndHTDVLTExZUTB1bG9zazA1NDFFLXRiY0VPYnlOZ3FkWHlRR29mN25OQldHT0NxajNwMTN4OUxnSVZkbldMMWpqZ2JEc2VrR3VwY25TM1RweHdCcGhEU09JVGFiNzRvNGRFc2ZtNnVxTUhqVlc3OC1YbklidnA4amdqV09TN1N0S2xkYVJfR1pRdll2QjltOUM4QUY0YlUyQTByOHJiaVZBMA?oc=5",
+        "source": "republica.ro",
+        "published": "Mon, 05 Oct 2026 04:01:00 GMT"
+      },
+      {
+        "title": "Baschet masculin: CSM Târgu Mureș a câștigat la Timișoara, în prima etapă a sezonului - Agerpres",
+        "title_ro": "Baschet masculin: CSM Târgu Mureș a câștigat la Timișoara, în prima etapă a sezonului - Agerpres",
+        "summary_ro": "Baschet masculin: CSM Târgu Mureș a câștigat la Timișoara, în prima etapă a sezonului Agerpres",
+        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTVl0M3oyN0FTcW9rcnNiTTExWkdOTFdJeUFlUVRBZUl0R3JTczlfa0FnWmcwSUtGeHJOdktGRFduZTdDaG5oYTctZzZZODhtSjdVNS0wdjdteEVoS0xfZUl3UlFycU43QWxWYzczQ3ZiMkVxdS1IRkcyc1FTQVUyY05yb0VMczlKVkQ2VFlRZ2ZGQUZmSFh4ZUdCa21FcTVaTmNBQkVwUW9Ya1ZOUXQzN0ozSUxtbEdvQ2UxNDdXQ29UX2dPLTRuXw?oc=5",
+        "source": "Agerpres",
+        "published": "Mon, 05 Oct 2026 05:26:15 GMT"
+      },
+      {
+        "title": "Franța - Belgia, LIVE VIDEO, 21:45, DGS 1. Italia - Turcia, DGS 2. Programul complet din Liga Națiunilor - Digi Sport",
+        "title_ro": "Franța - Belgia, LIVE VIDEO, 21:45, DGS 1. Italia - Turcia, DGS 2. Programul complet din Liga Națiunilor - Digi Sport",
+        "summary_ro": "Franța - Belgia, LIVE VIDEO, 21:45, DGS 1. Italia - Turcia, DGS 2. Programul complet din Liga Națiunilor Digi Sport",
+        "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTXpxdVlBX1g1RmpkVFlfVXRGckhYbkVzUzJkSkJ2OGdMUkxJQy1rUDlCb1hCSjd0OW45STRQVUZtcm4yRXBUUUxOdndVNzJ5U1VTQllpRnF2Q0h3TUI5aEp5Q3JObE9GckE2RXc3LXRScUhzaU5kc0RZVjhGRTJkUU5WTWVOUlBGX09GRUdKOXI1eC1Kc29CMTlSV0JjajA3Ymh2X1ZSZlFFX25SRi1MVkg0U0Ezd3p1ZmJ0WkdxY3RfWUU2X1ZNeGRwcUJaNExkWFVBYndPb3JlaWk4cVkwQWZTeEpBdUY1V1hz0gHuAUFVX3lxTE9NTDc3SjZaS0lESlp4Mm16WUI2SlNDa2VPWVpZaUtaV19hXzhMUzNfMTJwc1NDcWgxa2J6NDVWd3pzNDJCTWo0WnRSbFdDSHNtd2tjVF9DdXd6Q2lvdks1bERIQ0NfS29RaENBcjZrQllndHZIMi0xU0c1ek9Ccm9UYmUydDJENWNfdUF6S2g3SXFMbUlvbzhURFJWRWozU242OGppTUpIMERNdDJVV0NmNVpOTWk3bWYyRnFoSjFtamJwWFluMTIzS3U1U0JzRlVlUllGVE1zM0lVUmY0djNUdm9qZlBHUTZuUWJ6WXc?oc=5",
+        "source": "Digi Sport",
+        "published": "Mon, 05 Oct 2026 04:28:13 GMT"
+      },
+      {
+        "title": "David Cosma Cristofor a scris istorie pentru motosportul românesc - romania-actualitati.ro",
+        "title_ro": "David Cosma Cristofor a scris istorie pentru motosportul românesc - romania-actualitati.ro",
+        "summary_ro": "David Cosma Cristofor a scris istorie pentru motosportul românesc romania-actualitati.ro",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOU16N3ZzNW0xV2d0dEs5T2xrU2ZwRGZxSm8wSC1CZ3pGbl9NNHEwSHhTaHJEaUhaOWRWZjIyZDVrUXFtUXQ2UzRHX2lSRExvX2ZaNGFibDMwVURGTDJoWnFKTEJWZE43RUUxYTY1c0RVZUZVNnhBWW1TOWZpd2hXXzdCVlNWa1FGRmE3YnBHTjhQaUt2MndwOGhDZmk1ZlpCNU1EbjJ4YUF3UTNYRmpqOXZQV24yU1BZWFl3Z1RJdVM5VFZE?oc=5",
+        "source": "romania-actualitati.ro",
+        "published": "Mon, 05 Oct 2026 04:52:30 GMT"
+      },
+      {
+        "title": "Radu Drăgușin a pus mâna pe telefon imediat după cartonașul roșu din Polonia - România! „M-a sunat din vestiar în minutul 27” - Sport.ro",
+        "title_ro": "Radu Drăgușin a pus mâna pe telefon imediat după cartonașul roșu din Polonia - România! „M-a sunat din vestiar în minutul 27” - Sport.ro",
+        "summary_ro": "Radu Drăgușin a pus mâna pe telefon imediat după cartonașul roșu din Polonia - România! „M-a sunat din vestiar în minutul 27” Sport.ro",
+        "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbEtnbDBDdXN4NjN0bXlvbFN1dGVrWlc0alNGcHhzUE5abmdfREFnUmRBOEZEbEo3ZTltc3diVXY3YWpwczFMUHk0N09DSDNBaVJoNTd5VkpXUFFDUkg4QmtLdV9YRUsxRE5DNXZiOElGY2E0bl9iQ0FaUTNZdkhNOTdiX1N1WUJCZXZoUkN6TEpPeHZjU3VyU1NMVHJCLW83SEh5TW1aUVhqV1U2SzA0bWxfdHh1d29yb2UyTTVPX0VZY1dpeE5BZUYzSnpGTXl4cHgzaDRxaWRMZXprZGdLTE52UWRMZm9hbU5RTA?oc=5",
+        "source": "Sport.ro",
+        "published": "Mon, 05 Oct 2026 09:49:22 GMT"
+      },
+      {
+        "title": "Fotbal: Gheorghe Hagi - Voi pleca atunci când o să cred eu; sper să rămân cât mai mult - Agerpres",
+        "title_ro": "Fotbal: Gheorghe Hagi - Voi pleca atunci când o să cred eu; sper să rămân cât mai mult - Agerpres",
+        "summary_ro": "Fotbal: Gheorghe Hagi - Voi pleca atunci când o să cred eu; sper să rămân cât mai mult Agerpres",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPOEpjRm9CMGZwT3RaSWZEc3c1a0hMd2tBcm85T3BxVzEzakluNWxiZDJTTzBydjFQamxhcW0tOGhBdzFPdWZtMGQycEFVWndMOFh0QW51Mkc0VkdoV3dkSjdvMkhHNzVCVFl0ZnkwRndOYnZqeU9KQ1NZeTRkYTNhcWFZelJFbVI4bnVTanE2bzFZWFdadkxtbktOTUY3Vm9hdlZhUjRBb2ZxLXhQd0xodWllVzlxZXJxTWMxY2UxV2FWQTlxQ0wwaGJR?oc=5",
+        "source": "Agerpres",
+        "published": "Mon, 05 Oct 2026 06:12:45 GMT"
+      },
+      {
+        "title": "Laurențiu Reghecampf a ales portarul FCSB-ului - Digi Sport",
+        "title_ro": "Laurențiu Reghecampf a ales portarul FCSB-ului - Digi Sport",
+        "summary_ro": "Laurențiu Reghecampf a ales portarul FCSB-ului Digi Sport",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQ0pGNzBzX1RuT1hWajVGcWxXMkVBM0NuQjdNdm55OVV4U00tOGlrX0NLQVFMMzNNU3hsQlE1dUdxZnBPS0VpRW9sMUtiMU8wOFFhRXZjakVINXFNNDhYZnhQcjFJN3dJcjNqT1R6bHFfSXRQQXhmOTFuNnZ6QXNnOEs1b0tKTnZWMXZOeHhhWlFKOTByc200Q9IBowFBVV95cUxQVEJlTFFud0dkQnN6ZHdGTVZkS1pad1dZOE5Fak9DODVPQ3lWQjNVeU1PUmFuX1ZKMkFwQVhUQ3F3Q2szUmwwMTllWnAxcm5wM1hlcDF3MU5BMkxCOU9uQ0FPa2swbGlnTzllcXRQZWdTM01UTWw5Nl9qYnhYY0lTbm1FWnhYQ1NUOGFhM2FyUlZwVmNJZDFOc3FuTWM3NnRmQk5j?oc=5",
+        "source": "Digi Sport",
+        "published": "Mon, 05 Oct 2026 07:09:00 GMT"
+      },
+      {
+        "title": "”Ar trebui să rămână Gică Hagi în funcție după Polonia - România 6-0?” Peste 36.000 de voturi în sondajul Sport.ro - Sport.ro",
+        "title_ro": "”Ar trebui să rămână Gică Hagi în funcție după Polonia - România 6-0?” Peste 36.000 de voturi în sondajul Sport.ro - Sport.ro",
+        "summary_ro": "”Ar trebui să rămână Gică Hagi în funcție după Polonia - România 6-0?” Peste 36.000 de voturi în sondajul Sport.ro Sport.ro",
+        "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObXZTUWctRHd1TGdUNWw4aHROcW5CRE1CbExzTEkybU5TR0lUbXpsVlpfQkdKdy1LdnF6empnTTl0VkF2bzNJd1NXR3pTU2s0VnRSeldHNFREUnZnbGxCQ25oeHVOakNxLTIxSWdReHhaZ0o3MzdOQ2ZyRjB1WW56ZFc1ZmdCakZNZFVyOEdpaUY1eVpRaFViYmwxeHB2WDdNdmhHZFhhY3lNdm5lQ2prMGxyU2NoOVJjTVFTWl9ZdTRyYk5XZXhfSlJnaXNsU1Znc2hzckphVmROLXBrbnc?oc=5",
+        "source": "Sport.ro",
+        "published": "Mon, 05 Oct 2026 07:12:19 GMT"
+      },
+      {
+        "title": "26 de ani fără Cătălin Hîldan! Mesajul transmis de Dinamo - Sport.ro",
+        "title_ro": "26 de ani fără Cătălin Hîldan! Mesajul transmis de Dinamo - Sport.ro",
+        "summary_ro": "26 de ani fără Cătălin Hîldan! Mesajul transmis de Dinamo Sport.ro",
+        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUW05a0VSLUtmZ0l6dW94ZG4zZnkzOGN2SzZ1TEFhM2NNbGlUYWFINzdfQjR4RENWV1VSRWwwZFI3d1BhbTV4NDljN1BvaFVPVkFVZDFXeF8yTGJ4RW5DaHIxQkMwV3RUZlBIWFYxUGliQnVZQXdlb3pRZUNWaWJhSUMwQUk0Y0JGTldyMjM5QlZFSzQ?oc=5",
+        "source": "Sport.ro",
+        "published": "Mon, 05 Oct 2026 07:09:25 GMT"
+      },
+      {
+        "title": "Lotul României pentru meciul cu Suedia! Jucătorii care sunt OUT - Digi Sport",
+        "title_ro": "Lotul României pentru meciul cu Suedia! Jucătorii care sunt OUT - Digi Sport",
+        "summary_ro": "Lotul României pentru meciul cu Suedia! Jucătorii care sunt OUT Digi Sport",
+        "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMnpfd1J0cGtkNHJISlEwOWp1X09SeGJYZlVBdlZibEpvOGM0MUFTeTZRWnNYeWs2b01HNUNwckZfRUU1OE9fT0o0VDdsanZka1NqVUlQaFpjMlNSVjdOb2Y3UnFRYWhOcDdDZVFpTlFLdXJma3o0RTFrcUNwTG1DSUtsNVYyNnFaVDJtdk00LXFRX2U2TDJvcmJUblQwM1lQOWVoZWNYUVQxVnpqWEdyekUycjBfbkxDek9J0gHGAUFVX3lxTFB5M256Wmt5Yi04WTgyNlp1cHFGVXkyR0pIMWRKYlBKNXRxWmRNWGJ4S0hlQ256a3V4MEVIT2JhLW5EaEJWOUNPMTJwc2YyZ3FJdWVYNHRaZkZVZGdRckdIX1VFWDc2TGU3aF9JZ3pmbUFhYTJ4TG9xbWhmS1hJb1hRWjVOaHROdGVTcnJ5dWVJdXVlcjh2a1p0MGdDV0xnOVZoOHdVM3QwVjNfWW1CY1RJWGVTaTJYcGlWa2sxdGpYd05heHpfQQ?oc=5",
+        "source": "Digi Sport",
+        "published": "Mon, 05 Oct 2026 05:24:00 GMT"
+      },
+      {
+        "title": "Fără atacanți la meciul cu Suedia, Gică Hagi a făcut anunțul: ”E clar” - Digi Sport",
+        "title_ro": "Fără atacanți la meciul cu Suedia, Gică Hagi a făcut anunțul: ”E clar” - Digi Sport",
+        "summary_ro": "Fără atacanți la meciul cu Suedia, Gică Hagi a făcut anunțul: ”E clar” Digi Sport",
+        "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVjlkQlJuRm9id3ItRy1BN2NDRUllNC1oU2tPWWtTejNJNms2RHl4RkdaTGdxYUNpRUo3UUI1OE81M0FZNmZKbG5fano0NEIyZmx6UWo2UFlIRDdQUlBYSkRXMUEwMEZDQTZ3Z3FycDB0aERqQXlDOUZKY2p1bjE5b19nYldrUWFaNXhua2NLQUpyb3JUcU9MVEV3X21PclpUSWNRT3RqQ1djbi01eTBYeHNsVUk2QkdWTjlrWXQ3VGnSAcsBQVVfeXFMTTFkOG9oaHlrQS0xNGw4Z25pUFNfVnBxYkpUX1RudVE0Um05TGh1emdmc1haTnNuWVpUUVBrc1djMnFOQi1HdmQ1R1Nuc0dleHA5SVR1NWk4SzE0V2lHcTF0b0xJWG5ha19RRnpZNXhYNkV6T3hWOV82M0RrU3oxcGduUGZvODhqLVRqV19KZEV4cVVCNjlaN2t6WUJvUmdjd3l5dWNQY0RpeTZLVW5WUlNKNDlYLVp2aGdzRFFOUGxIVGI2WXE1a1ZLZGs?oc=5",
+        "source": "Digi Sport",
+        "published": "Sun, 04 Oct 2026 17:01:00 GMT"
+      }
+    ],
+    "politica_mondiala": [
+      {
+        "title": "Spain's prime minister calls early elections as pressure mounts over housing crisis - Audacy",
+        "title_ro": "Spain's prime minister calls early elections as pressure mounts over housing crisis - Audacy",
+        "summary_ro": "Spain's prime minister calls early elections as pressure mounts over housing crisis Audacy",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSU5NaklrdHg4R0lLNUR1Tl85MVJwcnVEYUxSSzhKWUdXMnlnYmFiVy0ydVNzams4U2hYV1dYSGlPR28wMGE0NjMxLWZMRTYzZmxQcXByemstY1lZR1h3cDNQNTN1ejVYRFQxVS1Na0hLa0VrUVlxSmtlNjVzQUY2b2RHWjZPZzRXT2RYdjRaR2pTMk1Uakg0Qjk2NXM1UE56WGFSWnBNMGJIeGM?oc=5",
+        "source": "Audacy",
+        "published": "Mon, 05 Oct 2026 07:14:00 GMT"
+      },
+      {
+        "title": "The United Nations: a useful failure It’s a global stage, not a world government - UnHerd",
+        "title_ro": "The United Nations: a useful failure It’s a global stage, not a world government - UnHerd",
+        "summary_ro": "The United Nations: a useful failure It’s a global stage, not a world government UnHerd",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96My1DZHBwZVFOMzlUMkU2TUJXbGNTVlh5VkxodklFcWFGRkx3ZXJ4bUJRaWpOdGRvRV9Ga2xPX2I0ZmZlSGpXSjI1QTkyVHo1Q0ZCN2EzU0pHM1Axdi0zR3FYNjRMWnhmZndURGwzRzM?oc=5",
+        "source": "UnHerd",
+        "published": "Mon, 05 Oct 2026 00:16:44 GMT"
+      },
+      {
+        "title": "Spain's Prime Minister Calls Snap Election as Left-Wing Government Faces Ouster - Haaretz",
+        "title_ro": "Spain's Prime Minister Calls Snap Election as Left-Wing Government Faces Ouster - Haaretz",
+        "summary_ro": "Spain's Prime Minister Calls Snap Election as Left-Wing Government Faces Ouster Haaretz",
+        "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPVEZOdW1sNDA0S3NLakJxaF9PdUUtMXNiTUI5aFg1VzdNRnppV1ZLNUtQZ3E2ZC1rVjJRbl9pR3l1MTlfelZNTHFJeUVFeFU1TXhGZTdNb1VQVVB5VVNlek1sWlRVSU1fUGtQVzhIamxxczh3R1JzWTNjZ3Z5Y3dWakxnd1JXQ08yTFNuUVJMRUdCMGZRQmZHaWJRSFR6U0xUajZob2FVSTNmOVA0bF9yVnFpQTNKNHVENV9qVkw2SVVVTG9sQnRtem5GTWxpZlFOUUQ2Y2dHbl91Q3dybndCVF8tRGNMcnd2emgzVnZGeGk5NUtpeGszYWZyR19taGZUVVNUTE5kcnFZbnM?oc=5",
+        "source": "Haaretz",
+        "published": "Mon, 05 Oct 2026 08:08:00 GMT"
+      },
+      {
+        "title": "Pro/Con: AI deepfakes are already swamping global politics - Duluth News Tribune",
+        "title_ro": "Pro/Con: AI deepfakes are already swamping global politics - Duluth News Tribune",
+        "summary_ro": "Pro/Con: AI deepfakes are already swamping global politics Duluth News Tribune",
+        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNThHVy1CdU9CSnRiNkxJS3JXMUZfS2FzZEUzQXctQWlLMno0UEQzOEdORTFRbTE2Rk1RN2VMMmN5S0xzUWhabXdwNmt1T25wb2J4OXRfNkRfbTEtd003UjI5dExHQ0MyOE5KckZzZUlvLWxUQ2ctRm5ENVdGNkFaN2k1UGQzUm5TNENPTm9aQ3dKNTV1NG5OZFAwZVZDREFKcWI5d2J1TUZEazQ?oc=5",
+        "source": "Duluth News Tribune",
+        "published": "Sun, 04 Oct 2026 16:02:13 GMT"
+      },
+      {
+        "title": "Taiwan’s envoy prods Trump administration on stalled arms sale - The Guam Daily Post",
+        "title_ro": "Taiwan’s envoy prods Trump administration on stalled arms sale - The Guam Daily Post",
+        "summary_ro": "Taiwan’s envoy prods Trump administration on stalled arms sale The Guam Daily Post",
+        "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNemZ0eGpFYW5WOU41SXM0MjFPam02OWJiMW5jWS1iblVXa0h3Tk83Rjk2X3RDZFllSU0xRzR0NUV0U3VaYkdlbVBQVHZ4N2lodEJCUENtQm1iNTVPRjdMODd0aGNhRDNxb2c1ODVfaVIya09IY0pZa3A3RG9XTDJrd3RFTVVhb1pRbzA3U2hzWFJmR2xmblFkeGxadkJjQ0NnUjU1SE5Da2tZVHNQZmJRc0dIWkV3cElDOWx5czhSLWlGYmdNbHVvbk5QOC1jQ1FiRXR3d2RXdnE4OTJSSDU3aWhpaDBFVlU?oc=5",
+        "source": "The Guam Daily Post",
+        "published": "Mon, 05 Oct 2026 08:32:31 GMT"
+      },
+      {
+        "title": "France lycée protests: hundreds of schools shut as chaos engulfs country - The Times",
+        "title_ro": "France lycée protests: hundreds of schools shut as chaos engulfs country - The Times",
+        "summary_ro": "France lycée protests: hundreds of schools shut as chaos engulfs country The Times",
+        "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNMHd3SUxLVDV2a3U0REprb0xFTXZUbTAzV082R3k2azYxUkhvOWROcXBZd3Q0UVFOTDM0dFRSWWh5WGFpTjRiVUIwQ0lpczFkMl9XcDFuMllDN0hlc0Vhd0pWR1p2U3h0eEt5cTVONnhuS0I1RXJyMDlwSlJienJJYlptd2lSaklQaHJjN3I4SlBuSEZkMi1aOGREd2dRQS1jMkVfZnk1WndKYXFw?oc=5",
+        "source": "The Times",
+        "published": "Mon, 05 Oct 2026 05:00:00 GMT"
+      },
+      {
+        "title": "Biljana Plavsic, a Former Bosnian Serb Political Leader, Has Died - The New York Times",
+        "title_ro": "Biljana Plavsic, a Former Bosnian Serb Political Leader, Has Died - The New York Times",
+        "summary_ro": "Biljana Plavsic, a Former Bosnian Serb Political Leader, Has Died The New York Times",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1PQzNUUHcwU0p6b09veXMwclNBOVdLclhlTmFNbVdFVUQxSF9MTWdXbHpuajFKSW9obmpyTjVucTRyalFKbG9SR0ZLTnFzSUJMN2hpQThOdTFqaFNvN1pjU1FueHk0LTI5LUdYTFdPb2VLU0RQTXJLUHExRGk4UQ?oc=5",
+        "source": "The New York Times",
+        "published": "Mon, 05 Oct 2026 09:42:00 GMT"
+      },
+      {
+        "title": "Environment, Climate and International Relations - E-International Relations",
+        "title_ro": "Environment, Climate and International Relations - E-International Relations",
+        "summary_ro": "Environment, Climate and International Relations E-International Relations",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FTHdhRFB5QzMwUG5yTThNTWJldk9MWFhSd3AtSUljYlh6Ui01SzRScXdfeGJ3dWd2elNVbzBUdkxOZG50Y2JUbklib2p2VDJOM1ItUmdCRU9kOXR6RzVzU2hMQUNOUEhRZUdCdQ?oc=5",
+        "source": "E-International Relations",
+        "published": "Sun, 04 Oct 2026 14:37:49 GMT"
+      },
+      {
+        "title": "Three win Nobel Prize in Medicine for research into brain activity - The Indian Express",
+        "title_ro": "Three win Nobel Prize in Medicine for research into brain activity - The Indian Express",
+        "summary_ro": "Three win Nobel Prize in Medicine for research into brain activity The Indian Express",
+        "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNaUhGYkhXazFVbUhWRG9HRlRkLUhsd19vVF9aT095WEF6enc2OXVJVlhJWDVWTkJHUHY1dzUwUkZJVG9TOFdZYmZVOS1yRHlYS2xicGk4Zi1EOTZFT2ZSUGNuQWdSRHRHTWc1Q0RDemtLWDJGcWRPdTBKcFBUMDZJdC1YRE5kR010UlVwTm5rQ01OeUxoR2xnVEkwdF84NnVaQkhwWW4xTUotNm5BNEtQWkNkS2pwRk5YY2R0MXR6Z3R0OFV4SFMtVVBuX1BxOXlfNlVv0gHaAUFVX3lxTE92NDFycVYzS09GVEY0Qm1iU0tyck5jSkZsdTYyOTlqSWc1MlUwWGlfQkRocDJLSksyQ1Y1ZTFndGpWOVRlT3h6THlaRzlZdVVIMGdTRndtbWwybTBldkpYMVVva3FBQVM4TmtRTXQ1T0RNTVhpdFBsZ0pQT3lZSWtFYlZGbWY2ZjBHZk5LNkdNSDlsWTFWdWUzWFNWZFdEYUVEdk82d3pJNk1mYUJuM1F3UzJzbW05T29YVGtpOE5pVlhMTmFPTU9NTUlfSHNKSkM4UVhOckF1cWxR?oc=5",
+        "source": "The Indian Express",
+        "published": "Mon, 05 Oct 2026 10:01:05 GMT"
+      },
+      {
+        "title": "As midterms near, Justice Alito shares his feelings about retirement - The Seattle Times",
+        "title_ro": "As midterms near, Justice Alito shares his feelings about retirement - The Seattle Times",
+        "summary_ro": "As midterms near, Justice Alito shares his feelings about retirement The Seattle Times",
+        "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZEp2bDdNYURTT0JwYlZmZmhiYXJEVVhMeVVkSFk3V0NVZEdlQ01Od3NTSU9nWGVsSGRVYWt3ODFMWURvUzJFcFdGUDFYZTdyMVRDUmdUd0xOV0NQTnEzS2VnR1VQWmMyenNjV3prdlQ2WWVqYkFqQzZZSWFsM1lfZXdDdXhBM2VrLUdDeUwzZXQySkpVR3BTTTJjRTF1RTJzTUFtaXJBXzBnZk9DUGdvUUZNMGNZclJJam5rcHQ5eTkyTVYw?oc=5",
+        "source": "The Seattle Times",
+        "published": "Sun, 04 Oct 2026 00:41:14 GMT"
+      },
+      {
+        "title": "US accuses California woman of spying on Taiwan president's son for China - ABC News & Headlines – Australian Broadcasting Corporation",
+        "title_ro": "US accuses California woman of spying on Taiwan president's son for China - ABC News & Headlines – Australian Broadcasting Corporation",
+        "summary_ro": "US accuses California woman of spying on Taiwan president's son for China ABC News & Headlines – Australian Broadcasting Corporation",
+        "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc2hYdWUwSE1OTTlGa2Jab1g1WGdxU0dNS2JxNExJUWxtNUtLanRCTXcyZkNzVXNpeEJ0WjhJNUdxNGFtaTFzOHZiRllHNlFTS1F2Z1BtSmxfQlgyTWR1VHFXWkR2cG42LUtZNkZHU0xlaTJ1MmRvZXFKYUR5Q1hNQWt0X2NTNHlZcm9FN212clVsSXBaTThVRXk0OVFzZGpBd0lMVDFVcElsRnhCOFE5MjlR?oc=5",
+        "source": "ABC News & Headlines – Australian Broadcasting Corporation",
+        "published": "Mon, 05 Oct 2026 09:12:03 GMT"
+      },
+      {
+        "title": "John T. Shaw: Finland’s president offers a compelling plan for a new world order - Chicago Tribune",
+        "title_ro": "John T. Shaw: Finland’s president offers a compelling plan for a new world order - Chicago Tribune",
+        "summary_ro": "John T. Shaw: Finland’s president offers a compelling plan for a new world order Chicago Tribune",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRGlDN2ZqVkRLVnBGRV9jc1VDTUVjcnMteUR1YlRhYUhMbTlrVF9aaVlYZHpaOEU2ZVNhQ01LSmJETk9SVmlrMWtybTVFbEJqbnZuUG9CbnNISVFnOXQtNlc0WDdMY054TDRRWjRWaVA3dm9GWUo0SHRFSlYxUnpwVzU5OVJyY1BoNkxLQkszMUQyQQ?oc=5",
+        "source": "Chicago Tribune",
+        "published": "Sun, 04 Oct 2026 11:00:55 GMT"
+      },
+      {
+        "title": "Future of French far-right star in balance after antisemitism claims - The Japan Times",
+        "title_ro": "Future of French far-right star in balance after antisemitism claims - The Japan Times",
+        "summary_ro": "Future of French far-right star in balance after antisemitism claims The Japan Times",
+        "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPbTRnUWJTYkZOWTJXMzJGYnQ0TnpKNjVJcjFPc3BDRXNWYlhxRFVhcWEyYjBvTGxTenlHQ0FhUXhtYVBWQ0dRWnBJLUhCbUcyQVJpYlhLUUhtLWpGSTlpYWhna3g3VTlkNjRfMDJjdl9ibFFJY0JDNTFJekJiZ1pDNm0zT0VDclplR20tZGx5TlJ4MTk0TmYzdnBiUQ?oc=5",
+        "source": "The Japan Times",
+        "published": "Sun, 04 Oct 2026 09:18:00 GMT"
+      },
+      {
+        "title": "Yemen’s Saudi-backed government launches military drive to retake all Houthi-held territory - The Guardian",
+        "title_ro": "Yemen’s Saudi-backed government launches military drive to retake all Houthi-held territory - The Guardian",
+        "summary_ro": "Yemen’s Saudi-backed government launches military drive to retake all Houthi-held territory The Guardian",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQ2pWZzRKZUN5UkEyOWtGQkk4RjZWOXpGcldueW9UVWVQbHk5NjgyNi1qV0I2amtHRmxabHlkcFZZc1l3cDl6RThSeHZKRk5RZkVDRlhyZmczeGhYQlhTdm5MQWtuUjBUVWNCQXlzV3JVV3d2X3ZjY1NHbnAtSFVxWVpvQmtHdVpLdWg5bDFoRGNxVzZHN0w5MGV5ZFQ4OXFlVmNWTDV0UFR2UVRnUktISm5PdDQ?oc=5",
+        "source": "The Guardian",
+        "published": "Mon, 05 Oct 2026 03:20:00 GMT"
+      },
+      {
+        "title": "Despair over future fuels political anxiety for college students on the cusp of adulthood - ABC27",
+        "title_ro": "Despair over future fuels political anxiety for college students on the cusp of adulthood - ABC27",
+        "summary_ro": "Despair over future fuels political anxiety for college students on the cusp of adulthood ABC27",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNdjNLRmI0c2JNTUd4T0RlVWFBRC1TM003cjgyM200bFhIUHY5SlJmZkpuTnp0eUVsbFExM3JzZ25Od2Q1bExGQlU1SVJ1eG5pakhXSlBHR1g0c1Z2R2hKUjNZYllVZ2pfNGtzS0FTTDVuWlY1cWR0SjBoemlxUkpwUFQzdGFxcnNvNWVrTjJmaTI0NW01R3NCT1B2QXY0di12aGE2ei1IWTQyU0JGU01XY2hmRWgwaWpNWkVNRVVmMEVDcWlFSW4wUW1VYzNfeWFOM19pVlotc1I1QdIB2gFBVV95cUxNdjNLRmI0c2JNTUd4T0RlVWFBRC1TM003cjgyM200bFhIUHY5SlJmZkpuTnp0eUVsbFExM3JzZ25Od2Q1bExGQlU1SVJ1eG5pakhXSlBHR1g0c1Z2R2hKUjNZYllVZ2pfNGtzS0FTTDVuWlY1cWR0SjBoemlxUkpwUFQzdGFxcnNvNWVrTjJmaTI0NW01R3NCT1B2QXY0di12aGE2ei1IWTQyU0JGU01XY2hmRWgwaWpNWkVNRVVmMEVDcWlFSW4wUW1VYzNfeWFOM19pVlotc1I1QQ?oc=5",
+        "source": "ABC27",
+        "published": "Sun, 04 Oct 2026 07:35:34 GMT"
+      }
+    ]
   }
 }
