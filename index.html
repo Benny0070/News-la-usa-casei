@@ -16,6 +16,7 @@
   }
   *{box-sizing:border-box;}
   html,body{margin:0;padding:0;}
+  html{scroll-behavior:smooth;}
   body{
     background:var(--paper);
     color:var(--ink);
@@ -61,28 +62,78 @@
     margin:18px auto 0;
     padding:0 18px;
   }
+  .search-row{display:flex; gap:8px;}
   .search{
-    width:100%;
+    flex:1;
+    min-width:0;
     padding:11px 14px;
     font-size:15px;
     border:1px solid var(--line);
     border-radius:6px;
     background:var(--card);
     color:var(--ink);
+    font-family:inherit;
   }
   .search:focus{outline:2px solid var(--ink); outline-offset:1px;}
-  .categories{
+  .picker-toggle{
+    border:1px solid var(--ink);
+    background:var(--ink);
+    color:var(--paper);
+    font-size:13px;
+    padding:0 14px;
+    border-radius:6px;
+    cursor:pointer;
+    font-family:inherit;
+    white-space:nowrap;
+  }
+  .picker{
+    display:none;
+    margin-top:12px;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:8px;
+    padding:14px;
+  }
+  .picker.open{display:block;}
+  .picker-top{
     display:flex;
     flex-wrap:wrap;
     gap:8px;
-    margin:12px 0 0;
+    align-items:center;
+    margin-bottom:6px;
   }
+  .picker-top .hint{font-size:12px; color:var(--ink-soft); margin-right:auto;}
+  .link-btn{
+    background:none;
+    border:none;
+    color:var(--flag);
+    font-size:12px;
+    cursor:pointer;
+    padding:2px 0;
+    font-family:inherit;
+  }
+  .picker-group{margin-top:14px;}
+  .picker-group-head{
+    display:flex;
+    align-items:baseline;
+    gap:12px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:4px;
+    margin-bottom:8px;
+  }
+  .picker-group-head h3{
+    font-family:Georgia,"Times New Roman",serif;
+    font-size:15px;
+    margin:0;
+    margin-right:auto;
+  }
+  .chips{display:flex; flex-wrap:wrap; gap:7px;}
   .cat-btn{
     border:1px solid var(--line);
-    background:var(--card);
+    background:var(--paper);
     color:var(--ink-soft);
     font-size:13px;
-    padding:7px 12px;
+    padding:6px 11px;
     border-radius:20px;
     cursor:pointer;
     font-family:inherit;
@@ -92,9 +143,25 @@
     border-color:var(--ink);
     color:var(--paper);
   }
+  .jump{
+    max-width:900px;
+    margin:12px auto 0;
+    padding:0 18px;
+    display:flex;
+    gap:14px;
+    overflow-x:auto;
+    white-space:nowrap;
+    -webkit-overflow-scrolling:touch;
+  }
+  .jump a{
+    font-size:13px;
+    color:var(--flag);
+    text-decoration:none;
+    padding:4px 0;
+  }
   .meta-row{
     max-width:900px;
-    margin:14px auto 0;
+    margin:10px auto 0;
     padding:0 18px;
     font-size:12px;
     color:var(--ink-soft);
@@ -107,9 +174,7 @@
     margin:0 auto;
     padding:10px 18px 60px;
   }
-  section.category-block{
-    margin-top:28px;
-  }
+  section.category-block{margin-top:28px; scroll-margin-top:12px;}
   section.category-block h2{
     font-family:Georgia,"Times New Roman",serif;
     font-size:20px;
@@ -131,15 +196,8 @@
     display:block;
   }
   .item a.headline:hover{text-decoration:underline;}
-  .item .source-row{
-    font-size:12px;
-    color:var(--ink-soft);
-    margin-top:5px;
-  }
-  .item .source-row .flag{
-    color:var(--flag);
-    font-weight:600;
-  }
+  .item .source-row{font-size:12px; color:var(--ink-soft); margin-top:5px;}
+  .item .source-row .flag{color:var(--flag); font-weight:600;}
   .rezumat-btn{
     margin-top:8px;
     background:none;
@@ -155,7 +213,6 @@
     margin-top:8px;
     font-size:14px;
     line-height:1.5;
-    color:var(--ink);
     background:var(--flag-soft);
     padding:10px 12px;
     border-radius:6px;
@@ -178,9 +235,22 @@
 </div>
 
 <div class="controls">
-  <input class="search" id="search" type="text" placeholder="Caută în titluri…" />
-  <div class="categories" id="categories"></div>
+  <div class="search-row">
+    <input class="search" id="search" type="text" placeholder="Caută în titluri…" />
+    <button class="picker-toggle" id="picker-toggle">Categorii</button>
+  </div>
+  <div class="picker" id="picker">
+    <div class="picker-top">
+      <span class="hint">Alege ce vrei să vezi. Se ține minte pe acest dispozitiv.</span>
+      <button class="link-btn" id="sel-all">Toate</button>
+      <button class="link-btn" id="sel-none">Niciuna</button>
+      <button class="link-btn" id="sel-default">Implicite</button>
+    </div>
+    <div id="picker-body"></div>
+  </div>
 </div>
+
+<div class="jump" id="jump"></div>
 
 <div class="meta-row">
   <span id="updated-at">Se încarcă…</span>
@@ -196,46 +266,92 @@ const DATA_URL = "news.json";
 const STORAGE_KEY = "stiri-categorii-active";
 
 let newsData = null;
-let activeCategories = null; // null = toate active
+let activeCategories = [];
 
-const todayEl = document.getElementById("today");
-todayEl.textContent = new Date().toLocaleDateString("ro-RO", {
+document.getElementById("today").textContent = new Date().toLocaleDateString("ro-RO", {
   weekday: "long", day: "numeric", month: "long", year: "numeric"
 });
 
-function loadActiveCategories(allKeys){
+function allKeys(){ return Object.keys(newsData.categories); }
+function defaultKeys(){
+  return allKeys().filter(k => newsData.categories[k].default);
+}
+
+function loadActive(){
   try{
     const saved = JSON.parse(localStorage.getItem(STORAGE_KEY));
-    if(Array.isArray(saved) && saved.length){
-      return saved.filter(k => allKeys.includes(k));
+    if(Array.isArray(saved)){
+      return saved.filter(k => k in newsData.categories);
     }
   }catch(e){}
-  return [...allKeys];
+  return defaultKeys();
 }
 
-function saveActiveCategories(){
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(activeCategories));
+function saveActive(){
+  try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(activeCategories)); }catch(e){}
 }
 
-function renderCategoryButtons(){
-  const wrap = document.getElementById("categories");
-  wrap.innerHTML = "";
-  Object.entries(newsData.categories).forEach(([key, cfg]) => {
-    const btn = document.createElement("button");
-    btn.className = "cat-btn" + (activeCategories.includes(key) ? " active" : "");
-    btn.textContent = cfg.label;
-    btn.onclick = () => {
-      if(activeCategories.includes(key)){
-        activeCategories = activeCategories.filter(k => k !== key);
-      } else {
-        activeCategories = [...activeCategories, key];
-      }
-      saveActiveCategories();
-      renderCategoryButtons();
-      renderNews();
-    };
-    wrap.appendChild(btn);
+function setActive(keys){
+  activeCategories = keys;
+  saveActive();
+  renderPicker();
+  renderNews();
+}
+
+function toggleKey(key){
+  if(activeCategories.includes(key)){
+    setActive(activeCategories.filter(k => k !== key));
+  } else {
+    setActive([...activeCategories, key]);
+  }
+}
+
+function renderPicker(){
+  const body = document.getElementById("picker-body");
+  body.innerHTML = "";
+  const cats = newsData.categories;
+  const groups = newsData.groups || [...new Set(Object.values(cats).map(c => c.group))];
+
+  groups.forEach(g => {
+    const keys = allKeys().filter(k => cats[k].group === g);
+    if(!keys.length) return;
+
+    const box = document.createElement("div");
+    box.className = "picker-group";
+
+    const head = document.createElement("div");
+    head.className = "picker-group-head";
+    const h3 = document.createElement("h3");
+    h3.textContent = g;
+    head.appendChild(h3);
+
+    const all = document.createElement("button");
+    all.className = "link-btn";
+    all.textContent = "toate";
+    all.onclick = () => setActive([...new Set([...activeCategories, ...keys])]);
+    const none = document.createElement("button");
+    none.className = "link-btn";
+    none.textContent = "niciuna";
+    none.onclick = () => setActive(activeCategories.filter(k => !keys.includes(k)));
+    head.appendChild(all);
+    head.appendChild(none);
+    box.appendChild(head);
+
+    const chips = document.createElement("div");
+    chips.className = "chips";
+    keys.forEach(k => {
+      const b = document.createElement("button");
+      b.className = "cat-btn" + (activeCategories.includes(k) ? " active" : "");
+      b.textContent = cats[k].label;
+      b.onclick = () => toggleKey(k);
+      chips.appendChild(b);
+    });
+    box.appendChild(chips);
+    body.appendChild(box);
   });
+
+  document.getElementById("picker-toggle").textContent =
+    `Categorii (${activeCategories.length}/${allKeys().length})`;
 }
 
 function escapeHtml(str){
@@ -248,7 +364,7 @@ function timeAgo(pubDateStr){
   if(!pubDateStr) return "";
   const then = new Date(pubDateStr);
   if(isNaN(then)) return "";
-  const diffMin = Math.round((Date.now() - then.getTime()) / 60000);
+  const diffMin = Math.max(0, Math.round((Date.now() - then.getTime()) / 60000));
   if(diffMin < 60) return `acum ${diffMin} min`;
   const diffH = Math.round(diffMin / 60);
   if(diffH < 24) return `acum ${diffH} h`;
@@ -257,13 +373,22 @@ function timeAgo(pubDateStr){
 
 function renderNews(){
   const main = document.getElementById("main");
+  const jump = document.getElementById("jump");
   const query = document.getElementById("search").value.trim().toLowerCase();
   main.innerHTML = "";
+  jump.innerHTML = "";
+
+  if(activeCategories.length === 0){
+    main.innerHTML = `<div class="empty">Nicio categorie aleasă. Apasă „Categorii" și bifează ce te interesează.</div>`;
+    document.getElementById("count").textContent = "";
+    return;
+  }
 
   let totalShown = 0;
 
-  Object.entries(newsData.categories).forEach(([key, cfg]) => {
+  allKeys().forEach(key => {
     if(!activeCategories.includes(key)) return;
+    const cfg = newsData.categories[key];
     const items = (newsData.items[key] || []).filter(it => {
       if(!query) return true;
       return (it.title_ro || "").toLowerCase().includes(query)
@@ -273,8 +398,14 @@ function renderNews(){
 
     totalShown += items.length;
 
+    const a = document.createElement("a");
+    a.href = `#sec-${key}`;
+    a.textContent = cfg.label;
+    jump.appendChild(a);
+
     const section = document.createElement("section");
     section.className = "category-block";
+    section.id = `sec-${key}`;
     const h2 = document.createElement("h2");
     h2.textContent = cfg.label;
     section.appendChild(h2);
@@ -301,16 +432,12 @@ function renderNews(){
   });
 
   document.querySelectorAll(".rezumat-btn").forEach(btn => {
-    btn.onclick = () => {
-      const target = document.getElementById(btn.dataset.target);
-      target.classList.toggle("open");
-    };
+    btn.onclick = () => document.getElementById(btn.dataset.target).classList.toggle("open");
   });
 
   if(totalShown === 0){
-    main.innerHTML = `<div class="empty">Nicio știre găsită. Încearcă alte domenii sau un alt termen de căutare.</div>`;
+    main.innerHTML = `<div class="empty">Nicio știre găsită pentru categoriile alese. Încearcă alte categorii sau alt termen de căutare.</div>`;
   }
-
   document.getElementById("count").textContent = `${totalShown} știri afișate`;
 }
 
@@ -318,27 +445,34 @@ fetch(DATA_URL, {cache: "no-store"})
   .then(r => r.json())
   .then(data => {
     newsData = data;
-    activeCategories = loadActiveCategories(Object.keys(data.categories));
-    const updated = new Date(data.generated_at);
-    document.getElementById("updated-at").textContent =
-      "Actualizat: " + updated.toLocaleString("ro-RO");
+    activeCategories = loadActive();
 
-    if(data.run_number){
+    document.getElementById("updated-at").textContent =
+      "Actualizat: " + new Date(data.generated_at).toLocaleString("ro-RO");
+
+    const day = data.day_number || data.run_number;
+    if(day){
       const badge = document.getElementById("day-badge");
-      badge.textContent = `Ziua ${data.run_number}`;
+      badge.textContent = `Ziua ${day}`;
       badge.style.display = "inline-block";
     }
 
-    renderCategoryButtons();
+    renderPicker();
     renderNews();
   })
-  .catch(err => {
+  .catch(() => {
     document.getElementById("main").innerHTML =
-      `<div class="empty">Nu am putut încărca news.json. Dacă tocmai ai pus pagina pe GitHub Pages, rulează manual workflow-ul din tab-ul "Actions" ca să generezi primul fișier.</div>`;
+      `<div class="empty">Nu am putut încărca news.json. Rulează manual workflow-ul din tab-ul "Actions".</div>`;
     document.getElementById("updated-at").textContent = "";
   });
 
 document.getElementById("search").addEventListener("input", renderNews);
+document.getElementById("picker-toggle").addEventListener("click", () => {
+  document.getElementById("picker").classList.toggle("open");
+});
+document.getElementById("sel-all").onclick = () => setActive(allKeys());
+document.getElementById("sel-none").onclick = () => setActive([]);
+document.getElementById("sel-default").onclick = () => setActive(defaultKeys());
 </script>
 
 </body>
